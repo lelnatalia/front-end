@@ -1,0 +1,3480 @@
+/* lesson ux/ui design */
+
+box-sizing: border-box;
+
+position: relative;
+width: 1946px;
+height: 6624px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+
+
+/* main page 1280X */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: relative;
+width: 1280px;
+height: 4197px;
+left: 108px;
+top: 100px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 40px 120px;
+gap: 48px;
+
+width: 1280px;
+height: 157px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* natasha */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+
+width: 172px;
+height: 77px;
+
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Natalia */
+
+width: 108px;
+height: 29px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* about me */
+
+width: 109px;
+height: 62px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* work process */
+
+width: 157px;
+height: 62px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* my works */
+
+width: 113px;
+height: 62px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+
+width: 170px;
+height: 77px;
+
+border: 2px solid #000000;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* button */
+
+width: 106px;
+height: 29px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* second screen */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px 0px;
+gap: 60px;
+
+width: 1055px;
+height: 953px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+width: 1055px;
+height: 526px;
+
+background: url(IMG_1229.jpg);
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 1055px;
+height: 287px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* The Best Tester is one who can put themselves in the customer shoes. */
+
+width: 1055px;
+height: 111px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 63px;
+text-align: center;
+
+color: #0F1010;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Quality is not an act, it is a habit. */
+
+width: 1055px;
+height: 35px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+
+width: 171px;
+height: 77px;
+
+border: 2px solid #000000;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* button */
+
+width: 107px;
+height: 29px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* screen3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 120px;
+gap: 157px;
+
+width: 1280px;
+height: 974px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* My works */
+
+width: 1040px;
+height: 72px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 63px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 120px 0px;
+gap: 40px;
+
+width: 1040px;
+height: 505px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 320px;
+height: 450px;
+
+filter: drop-shadow(0px 4px 12px rgba(29, 114, 175, 0.35));
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Rectangle 2 */
+
+width: 320px;
+height: 280px;
+
+background: url(CA76D377-C50E-4325-B6D1-576D296E736F.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 80px;
+gap: 4px;
+
+width: 320px;
+height: 170px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project Alpha */
+
+width: 280px;
+height: 37px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* System improvements */
+
+width: 280px;
+height: 29px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 320px;
+height: 450px;
+
+filter: drop-shadow(0px 4px 12px rgba(29, 114, 175, 0.35));
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Rectangle 2 */
+
+width: 320px;
+height: 280px;
+
+background: url(409EB3EE-9F8A-4D27-9D4F-6F55CE4DE61B.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 80px;
+gap: 4px;
+
+width: 320px;
+height: 170px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project Gamma */
+
+width: 280px;
+height: 37px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Manufacturing issues */
+
+width: 280px;
+height: 29px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 320px;
+height: 450px;
+
+filter: drop-shadow(0px 4px 12px rgba(29, 114, 175, 0.35));
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* Rectangle 2 */
+
+width: 320px;
+height: 280px;
+
+background: url(78448C3B-D074-4054-A3E2-664F0B5BC65A.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 80px;
+gap: 4px;
+
+width: 320px;
+height: 170px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project Beta */
+
+width: 280px;
+height: 37px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Security improvements */
+
+width: 280px;
+height: 29px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* screen4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 174px;
+
+width: 1280px;
+height: 1326px;
+
+background: linear-gradient(180deg, rgba(142, 137, 142, 0.184314) 14%, #FFFFFF 70.5%);
+border-radius: 24px 24px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Work process */
+
+width: 458px;
+height: 92px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 63px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Screen 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px 120px;
+gap: 60px;
+
+width: 1280px;
+height: 1060px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Block1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 1040px;
+height: 190px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 20px;
+gap: 706px;
+
+width: 1040px;
+height: 128px;
+
+border-bottom: 2px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Briefing */
+
+margin: 0 auto;
+width: 193px;
+height: 108px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 108px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* step */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 60px;
+height: 60px;
+
+border: 1px solid #000000;
+border-radius: 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* step */
+
+width: 60px;
+height: 70px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 70px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Determining the desired functionality */
+
+width: 1040px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Block2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 1040px;
+height: 190px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 20px;
+gap: 706px;
+
+width: 1040px;
+height: 128px;
+
+border-bottom: 2px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Analysis */
+
+margin: 0 auto;
+width: 225px;
+height: 108px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 108px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* step */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 60px;
+height: 60px;
+
+border: 1px solid #000000;
+border-radius: 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* step */
+
+width: 60px;
+height: 70px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 70px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Analisis of the company */
+
+width: 1040px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Block3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 1040px;
+height: 190px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 20px;
+gap: 706px;
+
+width: 1040px;
+height: 128px;
+
+border-bottom: 2px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Prototype */
+
+margin: 0 auto;
+width: 223px;
+height: 108px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 108px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* step */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 60px;
+height: 60px;
+
+border: 1px solid #000000;
+border-radius: 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* step */
+
+width: 60px;
+height: 70px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 70px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Creating a layout */
+
+width: 1040px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Block3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 1040px;
+height: 190px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 20px;
+gap: 706px;
+
+width: 1040px;
+height: 128px;
+
+border-bottom: 2px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Design */
+
+margin: 0 auto;
+width: 163px;
+height: 108px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 108px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* step */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 60px;
+height: 60px;
+
+border: 1px solid #000000;
+border-radius: 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* step */
+
+width: 60px;
+height: 70px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 70px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Designing all pages */
+
+width: 1040px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* screen 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 120px;
+gap: 10px;
+
+width: 1280px;
+height: 664px;
+
+background: #272829;
+border-radius: 24px 24px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* content group */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+width: 1040px;
+height: 424px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Get in touch! */
+
+width: 1040px;
+height: 68px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 68px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFCFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* message block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 1040px;
+height: 197px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Just fill out the form below and send me your message */
+
+width: 1040px;
+height: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+
+color: #FFFBFB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text fields */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 504px;
+height: 59px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 10px;
+
+width: 240px;
+height: 59px;
+
+background: #7A7F86;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* your name */
+
+width: 136px;
+height: 35px;
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.1);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 10px;
+
+width: 240px;
+height: 59px;
+
+background: #7A7F86;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* your e-mail */
+
+width: 146px;
+height: 35px;
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.1);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 10px;
+
+width: 504px;
+height: 59px;
+
+background: #7A7F86;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* your message */
+
+width: 238px;
+height: 35px;
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.1);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px 26px;
+gap: 10px;
+
+width: 198px;
+height: 79px;
+
+border: 2px solid #FFFBFB;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* send message */
+
+width: 134px;
+height: 29px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFAFA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* footer */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 31px 116px 40px 120px;
+gap: 183px;
+
+width: 1280px;
+height: 123px;
+
+background: #272829;
+border-top: 1px dashed rgba(255, 255, 255, 0.4);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* natasha */
+
+margin: 0 auto;
+width: 74px;
+height: 29px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* socials */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+margin: 0 auto;
+width: 409px;
+height: 52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* facebook */
+
+width: 102px;
+height: 52px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+/* identical to box height */
+text-decoration-line: underline;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instagram */
+
+width: 112px;
+height: 52px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+/* identical to box height */
+text-decoration-line: underline;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* telegram */
+
+width: 99px;
+height: 52px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+/* identical to box height */
+text-decoration-line: underline;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* mobile page 375 */
+
+position: relative;
+width: 375px;
+height: 5128px;
+left: 1418px;
+top: 141px;
+
+background: #FFFFFF;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 48px;
+
+position: absolute;
+width: 375px;
+height: 95px;
+left: 0px;
+top: 0px;
+
+
+
+/* natasha */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+
+width: 172px;
+height: 77px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Natalia */
+
+width: 108px;
+height: 29px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* about me */
+
+display: none;
+width: 109px;
+height: 62px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* work process */
+
+display: none;
+width: 157px;
+height: 62px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* my works */
+
+display: none;
+width: 113px;
+height: 62px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+
+width: 116px;
+height: 77px;
+
+border: 2px solid #000000;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* button */
+
+width: 52px;
+height: 29px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* second screen */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px 0px;
+gap: 60px;
+
+position: absolute;
+width: 375px;
+height: 1991px;
+left: 0px;
+top: -455px;
+
+
+
+/* Rectangle 1 */
+
+width: 375px;
+height: 360px;
+
+background: url(IMG_1229.jpg);
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 301px;
+height: 318px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* The Best Tester is one who can put themselves in the customer shoes. */
+
+width: 301px;
+height: 602px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 63px;
+text-align: center;
+
+color: #0F1010;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Quality is not an act, it is a habit. */
+
+width: 301px;
+height: 111px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+
+width: 301px;
+height: 77px;
+
+border: 2px solid #000000;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* button */
+
+width: 107px;
+height: 29px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* screen3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 32px 20px;
+gap: 32px;
+
+position: absolute;
+width: 375px;
+height: 1640px;
+left: 0px;
+top: 1536px;
+
+
+
+/* My works */
+
+width: 335px;
+height: 72px;
+
+font-family: 'Sail';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+width: 335px;
+height: 1472px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 335px;
+height: 464px;
+
+filter: drop-shadow(0px 4px 12px rgba(29, 114, 175, 0.35));
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 335px;
+height: 280px;
+
+background: url(CA76D377-C50E-4325-B6D1-576D296E736F.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 80px;
+gap: 4px;
+
+width: 335px;
+height: 184px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project Alpha */
+
+width: 295px;
+height: 40px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* my first project */
+
+width: 295px;
+height: 40px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 335px;
+height: 464px;
+
+filter: drop-shadow(0px 4px 12px rgba(29, 114, 175, 0.35));
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 335px;
+height: 280px;
+
+background: url(409EB3EE-9F8A-4D27-9D4F-6F55CE4DE61B.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 80px;
+gap: 4px;
+
+width: 335px;
+height: 184px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project Gamma */
+
+width: 295px;
+height: 40px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* my second project */
+
+width: 295px;
+height: 40px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 335px;
+height: 464px;
+
+filter: drop-shadow(0px 4px 12px rgba(29, 114, 175, 0.35));
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Rectangle 2 */
+
+width: 335px;
+height: 280px;
+
+background: url(78448C3B-D074-4054-A3E2-664F0B5BC65A.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 20px 80px;
+gap: 4px;
+
+width: 335px;
+height: 184px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Project Beta */
+
+width: 295px;
+height: 40px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* my third project */
+
+width: 295px;
+height: 40px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* screen4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 32px 20px;
+gap: 32px;
+
+position: absolute;
+width: 375px;
+height: 1254px;
+left: 0px;
+top: 3176px;
+
+background: linear-gradient(180deg, rgba(103, 99, 103, 0.184314) 14%, #FFFFFF 70.5%);
+border-radius: 24px 24px 0px 0px;
+
+
+/* Work process */
+
+width: 375px;
+height: 92px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Screen 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 60px;
+
+width: 335px;
+height: 1066px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Block1 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 335px;
+height: 274px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 20px;
+gap: 706px;
+
+width: 335px;
+height: 128px;
+
+border-bottom: 2px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Briefing */
+
+margin: 0 auto;
+width: 193px;
+height: 108px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 108px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* step */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 60px;
+height: 60px;
+
+border: 1px solid #000000;
+border-radius: 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* step */
+
+width: 60px;
+height: 70px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 70px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Determining the desired functionality */
+
+width: 335px;
+height: 126px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Block2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 335px;
+height: 232px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 20px;
+gap: 706px;
+
+width: 335px;
+height: 128px;
+
+border-bottom: 2px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Analysis */
+
+margin: 0 auto;
+width: 225px;
+height: 108px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 108px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* step */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 60px;
+height: 60px;
+
+border: 1px solid #000000;
+border-radius: 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* step */
+
+width: 60px;
+height: 70px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 70px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Analisis of the company */
+
+width: 375px;
+height: 84px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Block3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 335px;
+height: 190px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 20px;
+gap: 706px;
+
+width: 335px;
+height: 128px;
+
+border-bottom: 2px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Prototype */
+
+margin: 0 auto;
+width: 223px;
+height: 108px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 108px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* step */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 60px;
+height: 60px;
+
+border: 1px solid #000000;
+border-radius: 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* step */
+
+width: 60px;
+height: 70px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 70px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Creating a layout */
+
+width: 335px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Block3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 335px;
+height: 190px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 20px;
+gap: 706px;
+
+width: 335px;
+height: 128px;
+
+border-bottom: 2px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Design */
+
+margin: 0 auto;
+width: 163px;
+height: 108px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 86px;
+line-height: 108px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* step */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 60px;
+height: 60px;
+
+border: 1px solid #000000;
+border-radius: 40px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* step */
+
+width: 60px;
+height: 70px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 70px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+border: 1px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Designing all pages */
+
+width: 335px;
+height: 42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 42px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* screen 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px 20px;
+gap: 10px;
+
+position: relative;
+width: 375px;
+height: 698px;
+left: 1418px;
+top: 4614px;
+
+background: #272829;
+border-radius: 24px 24px 0px 0px;
+
+
+/* content group */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+width: 335px;
+height: 763px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Get in touch! */
+
+width: 335px;
+height: 136px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 68px;
+text-align: center;
+
+color: #FFFCFC;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* message block */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 335px;
+height: 363px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Just fill out the form below and send me your message */
+
+width: 335px;
+height: 93px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+
+color: #FFFBFB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text fields */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 335px;
+height: 142px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 10px;
+
+width: 335px;
+height: 59px;
+
+background: #7A7F86;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* your name */
+
+width: 136px;
+height: 35px;
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.1);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 10px;
+
+width: 335px;
+height: 59px;
+
+background: #7A7F86;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* your e-mail */
+
+width: 146px;
+height: 35px;
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.1);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px;
+gap: 10px;
+
+width: 335px;
+height: 80px;
+
+background: #7A7F86;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* your message */
+
+width: 238px;
+height: 35px;
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: rgba(0, 0, 0, 0.1);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px 26px;
+gap: 10px;
+
+width: 335px;
+height: 79px;
+
+border: 2px solid #FFFBFB;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* send message */
+
+width: 134px;
+height: 29px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFAFA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* footer */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 31px 116px 40px 20px;
+gap: 40px;
+
+position: relative;
+width: 375px;
+height: 441px;
+left: 1418px;
+top: 5312px;
+
+background: #272829;
+border-top: 1px dashed rgba(255, 255, 255, 0.4);
+
+
+/* natasha */
+
+width: 74px;
+height: 29px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* socials */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 77px;
+height: 276px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* facebook */
+
+width: 102px;
+height: 52px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+/* identical to box height */
+text-decoration-line: underline;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* instagram */
+
+width: 112px;
+height: 52px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+/* identical to box height */
+text-decoration-line: underline;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* telegram */
+
+width: 99px;
+height: 52px;
+
+font-family: 'Inknut Antiqua';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 52px;
+/* identical to box height */
+text-decoration-line: underline;
+
+color: rgba(255, 255, 255, 0.4);
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
