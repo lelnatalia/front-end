@@ -62,7 +62,13 @@ height: auto;
  
     cursor:pointer;
  }
+ #mobile-menu{
+   display:none;
+} 
 
+#mobile-menu-list{
+   display:none;
+}
 .nav a{text-decoration: none;
  color: #000000;}
  .nav a:hover{text-decoration: underline;}
@@ -152,10 +158,10 @@ color: #000000;}
    max-width: 300px;
    border:2px solid #000000;
    border-radius:35px;
-   margin:0 5px 0 5px:
+   margin:0 5px 0 5px;
 }
 .card li p{
-   padding:60px;
+   padding:60px 0;
 }
 
 .container1{
@@ -175,13 +181,7 @@ padding-top:0px;
 padding-bottom:7px;
 float:right;
 }
-.card1{
-   display:flex;
-   flex-direction:row;
-   Justify-content: space-between;
-       align-items: center;
-       padding: 60px 120px
-}
+
 #screen4{
    background: black;
    font-family: "Sansita Swashed" , serif;
@@ -203,14 +203,15 @@ text-align: center;
   background: grey;
   border-color: grey;
   color: rgb(79, 75, 75);
-  width: 195px;
+  width: 100%;
+  max-width: 195px;
 }
 
 .form-field textarea{
    background: grey;
   border-color: grey;
   color: rgb(79, 75, 75);
-  widht:100%
+  width:100%;
   max-width: 400px;
 
 }
@@ -238,67 +239,34 @@ width: auto;
 min-height: 60px;
  }
  @media (max-width: 1080px){
-   header{padding: 30px 60px;}
+   header{padding: 20px 60px;}
    .screen1280{
-      padding: 30px 60px;
+      padding: 30px 20px;
        }
-.card1{
-             padding: 30px 60px;
+.card{
+             padding: 30px 20px;
       }
 .footer1280{
-         padding: 10px 60px;
+         padding: 10px 20px;
           }
  }
- @media (max-width: 940px){
-   header{padding: 30px 60px;
-   }
-
-   header nav ul li {
-      display: block;
-      
-   }
-   header {
-      padding: 20px 24px;
-   }
-
-      .card li{
-         max-width:450px;
-         width:100%;
-   }
-   card1{
-      flex-direction: column
+@media (max-width: 600px){
+   header{padding: 20px 20px;}
+   .screen1280{
+      padding: 20px 20px;
+       }
        
-}
- }
- @media (max-width: 720px){
-   header{padding: 20px 20px;}
-   .screen1280{
-      padding: 20px 20px;
-       }
-      
-
-}
-
-.footer1280{
-         padding: 20px 20px;
-          }
-          #slogan{
-            padding: 0px 10px;
-         font-weight: 400;
-         font-size: 40px;
-         line-height: 45px;
-}
-.card li{
-   max-width:450px;
-   width:100%;}
-@media (max-width: 320px){
-   header{padding: 20px 20px;}
-   .screen1280{
-      padding: 20px 20px;
-       }
-.card1{
-
-             padding: 20px 20px;
+.card{
+   flex-direction:column;
+   padding: 20px 20px;
+      }
+ .card li{
+         width:100%;
+         max-width: 500px;
+         margin:10px 5px 10px 5px;
+         }
+      .card li p{
+         padding:20px 0;
       }
 .footer1280{
          padding: 20px 20px;
@@ -309,5 +277,37 @@ min-height: 60px;
          font-size: 40px;
          line-height: 45px;
 }
+#mobile-menu{
+   display:block;
+}
+#mobile-menu:active ~ #mobile-menu-list{
+   display:block;
+}
+#mobile-menu:hover ~ #mobile-menu-list{
+   display:block;
+}
+#mobile-menu-list:hover{
+   display:block;
+}
+.mobile-nav a{ padding: 5px;
+   color: #000000;
+   white-space: nowrap;}
+.nav{
+   display:none;
+}
+ }
+ @media (max-width: 472px){
+   .form-field{ 
+      width: 100%;
+    }
+   .form-field input{ 
+      margin:20px 0px;
+      background: grey;
+      border-color: grey;
+      color: rgb(79, 75, 75);
+      width: 100%;
+      max-width: 392px;
+    }
+
  }
  
