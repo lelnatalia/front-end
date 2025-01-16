@@ -62,10 +62,21 @@ height: auto;
  
     cursor:pointer;
  }
- #mobile-menu{
-   display:none;
-} 
 
+.dropdown{
+   position:relative;
+   display:none;
+}
+.dropbtn{
+   text-decoration: none;
+   color: #000000;
+   background: none;
+   border-radius: 10px;
+   padding: 12px 20px;
+   border: 1px solid #000000;
+   cursor:pointer;
+   white-space: nowrap;
+}
 #mobile-menu-list{
    display:none;
 }
@@ -251,7 +262,7 @@ min-height: 60px;
           }
  }
 @media (max-width: 600px){
-   header{padding: 20px 20px;}
+   header{padding: 20px 40px;}
    .screen1280{
       padding: 20px 20px;
        }
@@ -262,7 +273,7 @@ min-height: 60px;
       }
  .card li{
          width:100%;
-         max-width: 500px;
+         max-width: 400px;
          margin:10px 5px 10px 5px;
          }
       .card li p{
@@ -277,21 +288,45 @@ min-height: 60px;
          font-size: 40px;
          line-height: 45px;
 }
+}
+@media (max-width: 720px){
+.dropdown{
+   position:relative;
+   display:inline-block;
+}
 #mobile-menu{
    display:block;
 }
-#mobile-menu:active ~ #mobile-menu-list{
+.mobile-menu-list{
+   display:none;
+   position:absolute;
+   background-color: #f1f1f1;
+   min-width: 140px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+}
+.mobile-menu-list a{
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display:block;
+
+}
+.mobile-menu-list a:hover{
+background-color: #ddd;
+}
+.dropdown:hover .mobile-menu-list{
    display:block;
 }
-#mobile-menu:hover ~ #mobile-menu-list{
+.dropdown:hover .dropbtn{
+   background-color: #6f7d70;
+}
+.dropdown:active .mobile-menu-list{
    display:block;
 }
-#mobile-menu-list:hover{
-   display:block;
+.dropdown:active .dropbtn{
+   background-color: #6f7d70;
 }
-.mobile-nav a{ padding: 5px;
-   color: #000000;
-   white-space: nowrap;}
 .nav{
    display:none;
 }
@@ -309,5 +344,9 @@ min-height: 60px;
       max-width: 392px;
     }
 
+ }
+
+ .new_class{
+   text-decoration: underline;
  }
  
