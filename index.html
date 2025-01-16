@@ -23,18 +23,20 @@
 
         <!--new comment-->
                 <header><!--Parent of UL;Granparent of li-->
-                    <span class="logo">
+                    <span class="logo" id="logo">
                       NATALIA
                     </span>
-                    <span id="mobile-menu" class="btn clik" >>></span>
-                    <span id="mobile-menu-list">  <span class="mobile-nav"><a href="#">About me</a></span>
-                    <span class="mobile-nav"><a href="#screen2">My Work</a></span>
-                    <span class="mobile-nav"><a href="#screen3">Work process</a></span></span>
+                    <div class="dropdown"><!--hidden mobile menu start-->
+                        <span id="mobile-menu" class="dropbtn" >MENU</span>
+                    <div class="mobile-menu-list"> 
+                         <a href="#">About me</a>
+                        <a href="#screen2">My Work</a>
+                        <a href="#screen3">Work process</a>
+                    </div>
+                    </div><!--hidden mobile menu end-->
                     <span class="nav"><a href="#">About me</a></span>
                         <span class="nav"><a href="#screen2">My Work</a></span>
                         <span class="nav"><a href="#screen3">Work process</a></span>
-                        <span>Contact Me</span>
-
                 <span><a href="#screen4" class="btn clik">Contact Me</a></span>
          </header>
 
@@ -54,7 +56,7 @@
                     
                     <li><img class="round-corner center" src="img/580CD563-9F12-409B-AF81-818C8B65C5ED_1_105_c.jpeg">Project Alpha
                     <p> System Improvments</p></li>
-                    <li><img class="round-corner center" src="img/580CD563-9F12-409B-AF81-818C8B65C5ED_1_105_c.jpeg">Project Beta<p>Manufacturing issues</p></li> 
+                    <li><img class="round-corner center" src="img/6258948D-0FA0-4021-AA5B-93CB31CC9AF7_1_105_c.jpeg">Project Beta<p>Manufacturing issues</p></li> 
                  
                     <li><img class="round-corner center" src="img/49AB0C9E-5CB2-475E-8EA9-788BD48F597F_1_105_c.jpeg">Project Gamma<p>Security improvments</p></li>
                     
@@ -84,11 +86,11 @@
                 <div class="form-field">
         
                     <div>
-                    <input type="text" value= "your name">
-                    <input type="text" value= "your e-mail">
+                    <input type="text" placeholder= "your name">
+                    <input type="text" placeholder= "your e-mail">
                     </div>
                     <div>
-                    <textarea  rows="3" >  your message</textarea>
+                    <textarea  rows="3" placeholder="your message"></textarea>
                     </div>
                     
                     <button class="btnw clik">Send message</button>
@@ -121,6 +123,79 @@
         
 
        
+
+
+        <script>
+
+      //document.getElementById("logo").innerHTML = "JavaScript";
+
+      //document.getElementById("logo").style.color = "red";
+
+      //this os JS comment//
+    
+      //document.getElementById("logo").style.display = "none";
+
+
+      
+
+
+      //document.getElementByClassName("card").style.color = "red";
+
+
+
+      var example = 'example value'
+
+      console.log(example);
+
+      const logo = document.getElementById("logo");
+      logo.classList.add('new_class');
+     let new_logo = "this is my stuff"
+
+     console.log(new_logo, 'first time')
+
+     new_logo = "different value"
+
+     console.log(new_logo, 'seconf time')
+
+     //string
+
+     var example = 'example value';
+     var integer_example_string = "5";
+
+     //inegar;number
+
+     var integer_example  = 5;
+
+     //Boolean
+
+     var boolran_example = true;
+     var boolean_example2 = false;
+
+     console.log(example + integer_example + boolean_example2);
+
+     let x = 5;
+     let y = 25;
+
+     console.log("this is the area of square: ", x * y,)
+     
+     if (x=5) {
+        console.log('x = 5')
+     }
+    
+     else {
+        console.log("it's not 5")
+
+     }
+
+     
+
+
+
+     
+
+        </script>
+
+
 
     </body> 
 </html>
