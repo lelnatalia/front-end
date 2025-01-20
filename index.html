@@ -2,200 +2,111 @@
 <html lang="en">
     <head> 
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Google Font-->
 
+        <!--Included JS file extrnally
+        <script src="scripts.js"></script>-->
+        <script src="working-scripts.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Google Font-->
          <link rel="preconnect"href="https://fonts.googleleapis.com">
          <link rel="preconnect"href="https:///fonts.gstatic.com" crossorigin> 
          <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
-        <!-- Google font-->
+<!-- Google font-->
 
 
         <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css"> <!-- main .css file  -->
 
-        <link rel="stylesheet" href="styles/style.css">
-
-        <!-- This is comment example  -->
+        <!-- This is page title shown at the top of browser window  -->
         <title>This is my first Web Page</title>
     </head>  
 
     <body> 
-
-        <!--new comment-->
-                <header><!--Parent of UL;Granparent of li-->
-                    <span class="logo" id="logo">
-                      NATALIA
-                    </span>
-                    <div class="dropdown"><!--hidden mobile menu start-->
-                        <span id="mobile-menu" class="dropbtn" >MENU</span>
-                    <div class="mobile-menu-list"> 
-                         <a href="#">About me</a>
-                        <a href="#screen2">My Work</a>
-                        <a href="#screen3">Work process</a>
-                    </div>
-                    </div><!--hidden mobile menu end-->
-                    <span class="nav"><a href="#">About me</a></span>
-                        <span class="nav"><a href="#screen2">My Work</a></span>
-                        <span class="nav"><a href="#screen3">Work process</a></span>
-                <span><a href="#screen4" class="btn clik">Contact Me</a></span>
+        <header>  
+                <span class="logo" id="logo">NATALIA</span><!--LOGO --> 
+ <!--START hidden mobile menu -->  <div id ="dropbtn" class="dropdown dropbtn">           
+                    <div class="hamburger" id = "hamburger-id"><!--hamburger START --> 
+                    <span></span><!--hamburger line -->
+                    <span></span><!--hamburger line -->
+                    <span></span><!--hamburger line -->
+                    </div>                                      <!--hamburger END --> 
+                    <div class="mobile-menu-list" id="mobile-menu-list-id"> <!--START hidden mobile menu list shown on hamburger click-->
+                        <a href="#">About me</a><!-- mobile menu list item-->
+                        <a href="#screen2">My Work</a><!-- mobile menu list item-->
+                        <a href="#screen3">Work process</a><!-- mobile menu list item-->
+                    </div>                                                      <!--END hidden mobile menu list showm on hamburger click-->
+<!--hidden mobile menu END--></div>
+                    
+                    <span class="nav"><a href="#">About me</a></span><!-- DESKTOP menu list item-->
+                    <span class="nav"><a href="#screen2">My Work</a></span><!-- DESKTOP menu list item-->
+                    <span class="nav"><a href="#screen3">Work process</a></span><!-- DESKTOP menu list item-->
+                <span><a href="#screen4" class="btn clik">Contact Me</a></span><!-- CONTACT ME button-->
          </header>
 
         <main>
-            <div id="main-page1280" class="screen1280">
+            <div id="main-page1280" class="screen1280"><!-- BANNER BLOCK WITH BIG PICTURE-->
                 <img class="round-corner center" src="img/IMG_1229.jpeg">
-            </div>
-            <div id="screen1" class="screen1280">
+            </div><!--END OF BANNER BLOCK WITH BIG PICTURE-->
+            <div id="screen1" class="screen1280"><!-- SLOGAN BLOCK WITH BIG PICTURE-->
                 <p id="slogan">The Best Tester is one who can put themselves in the customer shoes.</p>
                 <p id="sub-slogan">Quality is not an act, it is a habit.</p>
-                <a href="#screen4" class="btn clik">Contact Me</a>
-            </div>
-            <div id="screen2" class="screen1280">
+                <a href="#screen4" class="btn clik">Contact Me</a> <!-- CONTACT MY button below SLOGAN-->
+            </div><!-- END OF SLOGAN BLOCK WITH BIG PICTURE-->
+            <div id="screen2" class="screen1280"><!-- START of MY WORK block with cards -->
                 <p id="slogan">My Works</p>
                 <p>&nbsp;</p>
-                <ul class="card"><!--Child of Screen2-->
-                    
-                    <li><img class="round-corner center" src="img/580CD563-9F12-409B-AF81-818C8B65C5ED_1_105_c.jpeg">Project Alpha
+                <ul class="card">
+<!-- LEFT CARD --><li><img class="round-corner center" src="img/580CD563-9F12-409B-AF81-818C8B65C5ED_1_105_c.jpeg">Project Alpha
                     <p> System Improvments</p></li>
-                    <li><img class="round-corner center" src="img/6258948D-0FA0-4021-AA5B-93CB31CC9AF7_1_105_c.jpeg">Project Beta<p>Manufacturing issues</p></li> 
-                 
-                    <li><img class="round-corner center" src="img/49AB0C9E-5CB2-475E-8EA9-788BD48F597F_1_105_c.jpeg">Project Gamma<p>Security improvments</p></li>
-                    
+<!-- MIDLE CARD --><li><img class="round-corner center" src="img/6258948D-0FA0-4021-AA5B-93CB31CC9AF7_1_105_c.jpeg">Project Beta
+                    <p>Manufacturing issues</p></li> 
+<!-- RIGHT CARD --><li><img class="round-corner center" src="img/49AB0C9E-5CB2-475E-8EA9-788BD48F597F_1_105_c.jpeg">Project Gamma
+                    <p>Security improvments</p></li>
                 </ul>
-                
-                
-            </div>
-            <div id="screen3" class="screen1280">
+            </div><!-- END of MY WORK block with cards -->
+            <div id="screen3" class="screen1280"><!-- START of MY WORK PROCESS block with bullenin -->
                 <p id="slogan">Work Process</p>
-                <div class="container1"><!--Child of screen3-->
+                <div class="container1">
                 <div><h2>Analyse<span class="cir">1</span></h2><p>Review and understanding project requirements</p></div>
                 <div><h2>Planning<span class="cir">2</span></h2><p>Test planning and design, creating test scripts</p></div>
                 <div><h2>Test Execution<span class="cir">3</span></h2><p>Execute test cases on the software application</p></div>
                 <div><h2>Defect reporting<span class="cir">4</span></h2><p>Submit detailed bug report to the development team</p></div>
-
-
-                </div>    
-                
-             </div>
-            <div  class="screen1280">
+                </div>       
+             </div><!-- END of MY WORK PROCESS block with bullenin -->
+            <div  class="screen1280"><!-- START of GET IN TOUCH BLOCK -->
                 <div id="screen4">
-
-            
-                <p class="slogan-W">Get in touch!</p>
-                
+                <p class="slogan-W">Get in touch!</p>               
                     <div>Just fill out the form below and send me your message</div>
-                <div class="form-field">
-        
-                    <div>
-                    <input type="text" placeholder= "your name">
-                    <input type="text" placeholder= "your e-mail">
-                    </div>
-                    <div>
-                    <textarea  rows="3" placeholder="your message"></textarea>
-                    </div>
+                    <div class="form-field">
+                        <form action="" method="get" id="form1"><!-- START of CONTACT FORM -->
+                        <div>
+                            <input type="text" placeholder= "your name"><!-- INPUT FIELD NAME -->
+                            <input type="text" placeholder= "your e-mail"><!-- INPUT FIELD EMAIL -->
+                        </div>
+                        <div>
+                        <textarea  rows="3" placeholder="your message"></textarea><!-- MESSAGE INPUT FIELD -->
+                        </div>
                     
-                    <button class="btnw clik">Send message</button>
-                </div>
-                
-                <footer class="footer1280"> 
-                    <div class="footer">
+                    <button class="btnw clik" type="submit" form="form1" value="Submit">Send message</button><!-- SUBMIT BUTTON -->
+                    </form><!-- END of CONTACT FORM -->
+                    </div><!-- END of div class="form-field" -->
+                </div><!-- END of div id="screen4" -->
+    <footer class="footer1280"> <!-- FOOTER element START-->
+                <div class="footer">
                         NATALIA
-                      </div>
-                      <div class="social">
-                      <ul><!--Child of footer-->
+                    
+                    <div class="social">
+                      <ul>
                           <li><a href="https://www.facebook.com/nnleleko">Facebook</a></li> <!--grandchild of footer-->
                           <li><a href="https://www.instagram.com/lelnatalia">Instagram</a></li><!--siblings of other li-->
-                          <li><a href="">Telegram</a></li><!--siblings-->
+                          <li><a href="https://t.me/Lelnatalia">Telegram</a></li><!--siblings-->
                       </ul>
                     </div>
-        
-                  
-              </div>
-        
-                </footer>          
-            </div>
-
-
-
-
-        </div>
+                </div><!-- END of <div class="footer"> -->
+    </footer>    <!-- FOOTER element END--> 
+                </div><!-- END of GET IN TOUCH BLOCK -->
+     
         </main>
-
-        
-
-       
-
-
-        <script>
-
-      //document.getElementById("logo").innerHTML = "JavaScript";
-
-      //document.getElementById("logo").style.color = "red";
-
-      //this os JS comment//
-    
-      //document.getElementById("logo").style.display = "none";
-
-
-      
-
-
-      //document.getElementByClassName("card").style.color = "red";
-
-
-
-      var example = 'example value'
-
-      console.log(example);
-
-      const logo = document.getElementById("logo");
-      logo.classList.add('new_class');
-     let new_logo = "this is my stuff"
-
-     console.log(new_logo, 'first time')
-
-     new_logo = "different value"
-
-     console.log(new_logo, 'seconf time')
-
-     //string
-
-     var example = 'example value';
-     var integer_example_string = "5";
-
-     //inegar;number
-
-     var integer_example  = 5;
-
-     //Boolean
-
-     var boolran_example = true;
-     var boolean_example2 = false;
-
-     console.log(example + integer_example + boolean_example2);
-
-     let x = 5;
-     let y = 25;
-
-     console.log("this is the area of square: ", x * y,)
-     
-     if (x=5) {
-        console.log('x = 5')
-     }
-    
-     else {
-        console.log("it's not 5")
-
-     }
-
-     
-
-
-
-     
-
-        </script>
-
-
-
     </body> 
 </html>

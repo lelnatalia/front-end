@@ -1,352 +1,442 @@
-h1 { 
-    color: green;
-    font-size: 30px;
+h1 {
+   color: green; /* Sets the text color of h1 elements to green */
+   font-size: 30px; /* Sets the font size of h1 elements to 30px */
  }
-
+ 
  a {
-    color: grey;
-    
+   color: grey; /* Sets the text color of all anchor (link) elements to grey */
  }
-
+ 
  #whatever {
-    color: blue;
-    border: 2px solid green;
+   color: blue; /* Sets the text color of the element with id 'whatever' to blue */
+   border: 2px solid green; /* Sets a green border of 2px width around the element */
  }
-
+ 
  #third {
-    color: orange;
-    border: 2px solid blue;
+   color: orange; /* Sets the text color of the element with id 'third' to orange */
+   border: 2px solid blue; /* Sets a blue border of 2px width around the element */
  }
+ 
  .center {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+   display: block; /* Changes the element's display type to block */
+   margin-left: auto; /* Centers the element horizontally by setting left margin to auto */
+   margin-right: auto; /* Centers the element horizontally by setting right margin to auto */
  }
+ 
  .green-border {
-    border: 3px solid green;
+   border: 3px solid green; /* Adds a 3px solid green border to elements with class 'green-border' */
  }
-
- .green { color: green; }
-
- #red { color: red; }
-
+ 
+ .green {
+   color: green; /* Sets the text color of elements with class 'green' to green */
+ }
+ 
+ #red {
+   color: red; /* Sets the text color of the element with id 'red' to red */
+ }
+ 
  p {
-    color: black;
+   color: black; /* Sets the text color of paragraph elements (p) to black */
  }
-
  
-
- /* DRY Code: Do not repeat yourself*/
-
-    body{
-      font-family: "Sansita Swashed", serif;
-      color: #000000;
-    }
-    main{
-padding: 0px;
-width: auto;
-height: auto;
-    }
-    
-    
-
+ /* DRY Code: Do not repeat yourself */
+ 
+ body {
+   font-family: "Sansita Swashed", serif; /* Sets the body text font to 'Sansita Swashed' with a serif fallback */
+   color: #000000; /* Sets the text color of the body to black */
+ }
+ 
+ main {
+   padding: 0px; /* Removes any padding inside the <main> element */
+   width: auto; /* Allows the width of the <main> element to adjust automatically */
+   height: auto; /* Allows the height of the <main> element to adjust automatically */
+ }
+ 
  header {
-       display:  flex; /*makes element flexbox*/
-       flex-direction:  row; /*puts elements in hor*/
-       Justify-content: space-between;
-       align-items: center;
-       padding: 60px 120px
+   display: flex; /* Applies flexbox to the header to align child elements */
+   flex-direction: row; /* Aligns child elements in a horizontal row */
+   justify-content: space-between; /* Distributes child elements with space between them */
+   align-items: center; /* Vertically aligns child elements to the center */
+   padding: 60px 120px; /* Adds padding inside the header with 60px top/bottom and 120px left/right */
  }
-
-.nav{
  
-    cursor:pointer;
+ .nav {
+   cursor: pointer; /* Changes the mouse pointer to a hand when hovering over elements with class 'nav' */
  }
-
-.dropdown{
-   position:relative;
-   display:none;
-}
-.dropbtn{
-   text-decoration: none;
-   color: #000000;
-   background: none;
-   border-radius: 10px;
-   padding: 12px 20px;
-   border: 1px solid #000000;
-   cursor:pointer;
-   white-space: nowrap;
-}
-#mobile-menu-list{
-   display:none;
-}
-.nav a{text-decoration: none;
- color: #000000;}
- .nav a:hover{text-decoration: underline;}
+ 
+ .dropdown {
+   position: relative; /* Positions the dropdown element relative to its normal position */
+   display: none; /* Hides the dropdown by default */
+   border-radius: 10px; /* Rounds the corners of the dropdown */
+   padding: 12px 20px; /* Adds padding inside the dropdown */
+   margin: 0px 10px; /* Adds 10px margin to the left and right of the dropdown */
+   border: 1px solid #000000; /* Adds a 1px solid black border around the dropdown */
+   cursor: pointer; /* Changes the mouse pointer to a hand when hovering over the dropdown */
+ }
+ 
+ .dropbtn {
+   color: #000000; /* Sets the text color of the dropdown button to black */
+   border-radius: 10px; /* Rounds the corners of the dropdown button */
+   padding: 7px 5px; /* Adds padding inside the dropdown button */
+   border: 1px solid #000000; /* Adds a 1px solid black border around the dropdown button */
+   cursor: pointer; /* Changes the mouse pointer to a hand when hovering over the dropdown button */
+ }
+ 
+ #mobile-menu-list {
+   display: none; /* Hides the mobile menu list by default */
+ }
+ 
+ .nav a {
+   text-decoration: none; /* Removes underlining from anchor tags inside elements with class 'nav' */
+   color: #000000; /* Sets the text color of anchor tags inside 'nav' to black */
+ }
+ 
+ .nav a:hover {
+   text-decoration: underline; /* Adds underline to anchor tags inside 'nav' when hovered */
+ }
+ 
  .logo {
-   font-family: "Sansita Swashed" , serif;
-   /*font-weight: 800;*/
-   font-size : 20px;
+   font-family: "Sansita Swashed", serif; /* Sets the font of the logo to 'Sansita Swashed' with serif fallback */
+   font-size: 20px; /* Sets the font size of the logo to 20px */
  }
+ 
  .btn {
-   text-decoration: none;
-   color: #000000;
-   background: none;
-   border-radius: 10px;
-   padding: 12px 20px;
-   border: 1px solid #000000;
-   box-shadow: 3px 3px #666;
-   cursor:pointer;
-   white-space: nowrap;
+   text-decoration: none; /* Removes underline from the button */
+   color: #000000; /* Sets the text color of the button to black */
+   background: none; /* Removes the background color of the button */
+   border-radius: 10px; /* Rounds the corners of the button */
+   padding: 12px 20px; /* Adds padding inside the button */
+   border: 1px solid #000000; /* Adds a 1px solid black border around the button */
+   box-shadow: 3px 3px #666; /* Adds a 3px shadow with a grey color to the button */
+   cursor: pointer; /* Changes the mouse pointer to a hand when hovering over the button */
+   white-space: nowrap; /* Prevents the button text from wrapping to multiple lines */
  }
-
+ 
  .btn:hover {
-   background-color: #deede2;
-   border: 1px solid #0e0e0e;
-}
+   background-color: #deede2; /* Changes the background color to a light greenish hue on hover */
+   border: 1px solid #0e0e0e; /* Changes the border color to dark grey when the button is hovered */
+ }
+ 
  .clik:active {
-   background-color: #b0ab89;
-   box-shadow: 1px 1px #666;
-   transform: translate(3px, 3px);
+   background-color: #b0ab89; /* Changes the background color to a brownish hue when the button is clicked */
+   box-shadow: 1px 1px #666; /* Changes the box-shadow to a smaller shadow when clicked */
+   transform: translate(3px, 3px); /* Moves the button 3px to the right and 3px down when clicked */
  }
- .btnw{
-   background: none;
-   border-radius: 10px;
-   padding: 12px 20px;
-   border: 1px solid white;
-   color: white;
-   box-shadow: 3px 3px #666;
-   cursor:pointer;
-   margin:30px;
-}
-.btnw:hover {
-   background-color: #deede2;
-   border: 1px solid #fbfbfb;
-   color: #000000;
-}
- header{
-   background: white;
+ 
+ .btnw {
+   background: none; /* Removes the background color from the button */
+   border-radius: 10px; /* Rounds the corners of the button */
+   padding: 12px 20px; /* Adds padding inside the button */
+   border: 1px solid white; /* Adds a 1px solid white border around the button */
+   color: white; /* Sets the text color of the button to white */
+   box-shadow: 3px 3px #666; /* Adds a shadow to the button */
+   cursor: pointer; /* Changes the mouse pointer to a hand when hovering over the button */
+   margin: 30px; /* Adds a margin of 30px around the button */
  }
- .screen1280{
-text-align: center;
-padding: 60px 120px;
-width: auto;
-min-height: 100px;
-
+ 
+ .btnw:hover {
+   background-color: #deede2; /* Changes the background color to a light greenish hue when hovered */
+   border: 1px solid #fbfbfb; /* Changes the border color to a light white when hovered */
+   color: #000000; /* Changes the text color to black when hovered */
  }
- .round-corner{
-border-radius: 32px;
+ 
+ header {
+   background: white; /* Sets the background color of the header to white */
  }
-
-/* The Best Tester is one who can put themselves in the customer shoes. */
-#slogan{
-   padding: 0px 100px;
-font-weight: 400;
-font-size: 55px;
-line-height: 60px;
-text-align: center;
-color: #0F1010;}
-/* Quality is not an act, it is a habit. */
-#sub-slogan{
-font-weight: 400;
-font-size: 30px;
-line-height: 35px;
-/* identical to box height */
-text-align: center;
-margin-bottom: 40px;
-color: #000000;}
-
-.card{
-   display:flex;
-   flex-direction:row;
-   Justify-content: space-between;
-   align-items: center;
-   padding: 0px;
-}
-.card li{
-   display:block;
-   width:100%;
-   max-width: 300px;
-   border:2px solid #000000;
-   border-radius:35px;
-   margin:0 5px 0 5px;
-}
-.card li p{
-   padding:60px 0;
-}
-
-.container1{
-   flex-direction:column; text-align: left;
-}
-.container1 h2{
-   border-bottom:  1px solid #000000; padding: 10px;
-}
-.cir{
-   border:  1px solid #000000; 
-   border-radius:20px;
-   width: 40px;
-height: 40px;
-padding-left:12px;
-padding-right:12px;
-padding-top:0px;
-padding-bottom:7px;
-float:right;
-}
-
-#screen4{
-   background: black;
-   font-family: "Sansita Swashed" , serif;
-
-   color: #FFFFFF;
-   padding:5px;
-
-}
-.slogan-W{
-   color: white;
-   font-weight: 400;
-font-size: 55px;
-line-height: 60px;
-text-align: center;
-}
-
-.form-field input{ 
-  margin:20px 5px;
-  background: grey;
-  border-color: grey;
-  color: rgb(79, 75, 75);
-  width: 100%;
-  max-width: 195px;
-}
-
-.form-field textarea{
-   background: grey;
-  border-color: grey;
-  color: rgb(79, 75, 75);
-  width:100%;
-  max-width: 400px;
-
-}
-
-footer div {
-   display:flex;
-    justify-content: space-between;
-  }
+ 
+ .screen1280 {
+   text-align: center; /* Centers the text inside the element */
+   padding: 60px 120px; /* Adds padding to the element with 60px top/bottom and 120px left/right */
+   width: auto; /* Automatically adjusts the width of the element */
+   min-height: 100px; /* Ensures the element has a minimum height of 100px */
+ }
+ 
+ .round-corner {
+   border-radius: 32px; /* Rounds the corners of the element with class 'round-corner' to 32px */
+ }
+ 
+ /* The Best Tester is one who can put themselves in the customer shoes. */
+ #slogan {
+   padding: 0px 100px; /* Adds 100px left and right padding to the element with id 'slogan' */
+   font-weight: 400; /* Sets the font weight of the slogan to normal */
+   font-size: 55px; /* Sets the font size of the slogan to 55px */
+   line-height: 60px; /* Sets the line height of the slogan to 60px */
+   text-align: center; /* Centers the text inside the slogan element */
+   color: #0f1010; /* Sets the text color to a very dark grey */
+ }
+ 
+ /* Quality is not an act, it is a habit. */
+ #sub-slogan {
+   font-weight: 400; /* Sets the font weight to normal */
+   font-size: 30px; /* Sets the font size of the sub-slogan to 30px */
+   line-height: 35px; /* Sets the line height of the sub-slogan to 35px */
+   text-align: center; /* Centers the text inside the sub-slogan element */
+   margin-bottom: 40px; /* Adds a 40px margin at the bottom of the sub-slogan element */
+   color: #000000; /* Sets the text color to black */
+ }
+ 
+ .card {
+   display: flex; /* Applies flexbox to the card to arrange items */
+   flex-direction: row; /* Aligns items horizontally in a row */
+   justify-content: space-between; /* Distributes items with space between them */
+   align-items: center; /* Centers the items vertically */
+   padding: 0px; /* Removes any padding inside the card */
+ }
+ 
+ .card li {
+   display: block; /* Makes each <li> block-level */
+   width: 100%; /* Sets the width of the list item to 100% */
+   max-width: 300px; /* Limits the maximum width of the list item to 300px */
+   border: 2px solid #000000; /* Adds a 2px solid black border around each list item */
+   border-radius: 35px; /* Rounds the corners of the list item */
+   margin: 0 5px 0 5px; /* Adds 5px margin on left and right sides of each list item */
+ }
+ 
+ .card li p {
+   padding: 60px 0; /* Adds 60px padding to the top and bottom of the <p> inside the list item */
+ }
+ 
+ .container1 {
+   flex-direction: column; /* Aligns children vertically in a column */
+   text-align: left; /* Aligns text to the left */
+ }
+ 
+ .container1 h2 {
+   border-bottom: 1px solid #000000; /* Adds a 1px solid black border below the <h2> */
+   padding: 10px; /* Adds 10px padding to the <h2> */
+ }
+ 
+ .cir {
+   border: 1px solid #000000; /* Adds a 1px solid black border around the circle */
+   border-radius: 20px; /* Rounds the corners of the circle */
+   width: 40px; /* Sets the width of the circle to 40px */
+   height: 40px; /* Sets the height of the circle to 40px */
+   padding-left: 12px; /* Adds padding of 12px to the left inside the circle */
+   padding-right: 12px; /* Adds padding of 12px to the right inside the circle */
+   padding-top: 0px; /* Removes top padding */
+   padding-bottom: 7px; /* Adds 7px bottom padding */
+   float: right; /* Floats the circle to the right */
+ }
+ 
+ #screen4 {
+   background: black; /* Sets the background color of the element with id 'screen4' to black */
+   font-family: "Sansita Swashed", serif; /* Sets the font family of text in #screen4 */
+   color: #ffffff; /* Sets the text color of #screen4 to white */
+   padding: 5px; /* Adds 5px padding inside the element */
+ }
+ 
+ .slogan-W {
+   color: white; /* Sets the text color of elements with class 'slogan-W' to white */
+   font-weight: 400; /* Sets the font weight to normal */
+   font-size: 55px; /* Sets the font size to 55px */
+   line-height: 60px; /* Sets the line height to 60px */
+   text-align: center; /* Centers the text horizontally */
+ }
+ 
+ /* Form fields */
+ .form-field input {
+   margin: 20px 5px; /* Adds margin of 20px on top and bottom and 5px on left and right */
+   background: grey; /* Sets the background color of the input fields to grey */
+   border-color: grey; /* Sets the border color of the input fields to grey */
+   color: rgb(79, 75, 75); /* Sets the text color of the input fields to a dark grey */
+   width: 100%; /* Makes the input fields take 100% width of the parent container */
+   max-width: 195px; /* Limits the width of the input fields to 195px */
+ }
+ 
+ .form-field textarea {
+   background: grey; /* Sets the background color of the textarea to grey */
+   border-color: grey; /* Sets the border color of the textarea to grey */
+   color: rgb(79, 75, 75); /* Sets the text color of the textarea to a dark grey */
+   width: 100%; /* Makes the textarea take 100% width of the parent container */
+   max-width: 400px; /* Limits the width of the textarea to 400px */
+ }
+ 
+ footer div {
+   display: flex; /* Applies flexbox to the footer */
+   justify-content: space-between; /* Distributes items with space between them */
+ }
+ 
  footer div ul li {
-    display: inline;
-    justify-content: space-between;
-    padding:10px;
- }
- .footer{
-   color:grey;
- }
- .social{
-   float: right;
- }
- .footer1280{
- 
-padding: 10px 120px;
-background: black;
-width: auto;
-min-height: 60px;
- }
- @media (max-width: 1080px){
-   header{padding: 20px 60px;}
-   .screen1280{
-      padding: 30px 20px;
-       }
-.card{
-             padding: 30px 20px;
-      }
-.footer1280{
-         padding: 10px 20px;
-          }
- }
-@media (max-width: 600px){
-   header{padding: 20px 40px;}
-   .screen1280{
-      padding: 20px 20px;
-       }
-       
-.card{
-   flex-direction:column;
-   padding: 20px 20px;
-      }
- .card li{
-         width:100%;
-         max-width: 400px;
-         margin:10px 5px 10px 5px;
-         }
-      .card li p{
-         padding:20px 0;
-      }
-.footer1280{
-         padding: 20px 20px;
-          }
-#slogan{
-            padding: 0px 10px;
-         font-weight: 400;
-         font-size: 40px;
-         line-height: 45px;
-}
-}
-@media (max-width: 720px){
-.dropdown{
-   position:relative;
-   display:inline-block;
-}
-#mobile-menu{
-   display:block;
-}
-.mobile-menu-list{
-   display:none;
-   position:absolute;
-   background-color: #f1f1f1;
-   min-width: 140px;
-   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-   z-index: 1;
-}
-.mobile-menu-list a{
-   color: black;
-   padding: 12px 16px;
-   text-decoration: none;
-   display:block;
-
-}
-.mobile-menu-list a:hover{
-background-color: #ddd;
-}
-.dropdown:hover .mobile-menu-list{
-   display:block;
-}
-.dropdown:hover .dropbtn{
-   background-color: #6f7d70;
-}
-.dropdown:active .mobile-menu-list{
-   display:block;
-}
-.dropdown:active .dropbtn{
-   background-color: #6f7d70;
-}
-.nav{
-   display:none;
-}
- }
- @media (max-width: 472px){
-   .form-field{ 
-      width: 100%;
-    }
-   .form-field input{ 
-      margin:20px 0px;
-      background: grey;
-      border-color: grey;
-      color: rgb(79, 75, 75);
-      width: 100%;
-      max-width: 392px;
-    }
-
- }
-
- .new_class{
-   text-decoration: underline;
+   display: inline; /* Makes the list items inline */
+   justify-content: space-between; /* Distributes space between inline list items */
+   padding: 10px; /* Adds padding to each list item */
  }
  
+ .footer {
+   color: grey; /* Sets the text color of the footer to grey */
+ }
+ 
+ .social {
+   float: right; /* Floats the social media links to the right */
+ }
+ 
+ .footer1280 {
+   display: block; /* Makes the footer a block-level element */
+   padding: 10px 120px; /* Adds 10px padding to top and bottom, 120px padding to left and right */
+   background: black; /* Sets the background color of the footer to black */
+   width: auto; /* Allows the footer width to adjust automatically */
+   min-height: 60px; /* Ensures the footer has a minimum height of 60px */
+   border-top: 1px dashed grey ;/* creates dashed separator between contact form and footer links */
+ }
+
+/* Mobile menu */
+
+.hamburger {
+  transform: rotate(90deg); /* Rotates the hamburger menu icon by 90 degrees */
+  display: none; /* Hides the hamburger menu by default */
+  cursor: pointer; /* Changes the mouse cursor to a hand (pointer) when hovered */
+}
+
+.hamburger span {
+  border: 2px solid black; /* Adds a 2px solid black border to the hamburger icon's spans */
+  width: 100%; /* Sets the width of the span to 100% of its parent container */
+  display: inline; /* Displays each span inline (next to each other) */
+  min-width: 10px; /* Sets a minimum width of 10px for each span */
+  padding: 1px; /* Adds 1px padding inside the span */
+  background: #000; /* Sets the background color of the span to black */
+  margin: 2px; /* Adds 2px margin between the spans */
+}
+
+.mobile-menu-list.show {
+  display: block; /* Displays the mobile menu list when it has the 'show' class */
+}
+
+.dropbtn.cliked {
+  border: 1px solid #01cc70; /* Changes the border color of the dropdown button to green when clicked */
+}
+
+@media (max-width: 1080px) {
+  /* Styles for screens smaller than 1080px */
+
+  header {
+    padding: 20px 60px; /* Adds 20px padding to the top and bottom, and 60px padding to the left and right of the header */
+  }
+
+  .screen1280 {
+    padding: 30px 20px; /* Adds 30px padding to the top and bottom, and 20px padding to the left and right of the 'screen1280' container */
+  }
+
+  .card {
+    padding: 30px 20px; /* Adds 30px padding to the top and bottom, and 20px padding to the left and right of the card */
+  }
+
+  .footer1280 {
+    padding: 10px 20px; /* Adds 10px padding to the top and bottom, and 20px padding to the left and right of the footer */
+  }
+}
+
+@media (max-width: 600px) {
+  /* Styles for screens smaller than 600px */
+
+  header {
+    padding: 20px 40px; /* Adds 20px padding to the top and bottom, and 40px padding to the left and right of the header */
+  }
+
+  .screen1280 {
+    padding: 20px 20px; /* Adds 20px padding to all sides of the 'screen1280' container */
+  }
+
+  .card {
+    flex-direction: column; /* Changes the flex direction to column for the card (stacks elements vertically) */
+    padding: 20px 20px; /* Adds 20px padding to all sides of the card */
+  }
+
+  .card li {
+    width: 100%; /* Sets the width of each list item to 100% of the container */
+    max-width: 400px; /* Sets the maximum width of each list item to 400px */
+    margin: 10px 5px 10px 5px; /* Adds 10px margin to the top and bottom, and 5px to the left and right */
+  }
+
+  .card li p {
+    padding: 20px 0; /* Adds 20px padding to the top and bottom of the paragraph inside list items */
+  }
+
+  .footer1280 {
+    padding: 20px 20px; /* Adds 20px padding to all sides of the footer */
+  }
+
+  #slogan {
+    padding: 0px 10px; /* Adds 10px padding to the left and right of the slogan */
+    font-weight: 400; /* Sets the font weight to normal */
+    font-size: 40px; /* Sets the font size of the slogan to 40px */
+    line-height: 45px; /* Sets the line height of the slogan to 45px */
+  }
+}
+
+/* tablet screen - max-width: 720px */
+
+@media (max-width: 720px) {
+  /* Styles for screens smaller than 720px */
+
+  .hamburger {
+    display: block; /* Displays the hamburger menu when the screen width is less than 720px */
+  }
+
+  .mobile-menu-list {
+    display: none; /* Hides the mobile menu list by default */
+  }
+
+  .dropdown {
+    position: relative; /* Positions the dropdown relative to its normal position */
+    display: inline-block; /* Makes the dropdown an inline-block element */
+  }
+
+  #mobile-menu {
+    display: block; /* Displays the mobile menu when it has the 'mobile-menu' id */
+  }
+
+  .mobile-menu-list {
+    display: none; /* Hides the mobile menu list */
+    position: absolute; /* Positions the mobile menu list absolutely */
+    margin-top: 10px; /* Adds 10px margin to the top of the mobile menu */
+    background-color: #f1f1f1; /* Sets the background color of the mobile menu to light grey */
+    min-width: 140px; /* Sets the minimum width of the mobile menu to 140px */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Adds a shadow to the mobile menu */
+    z-index: 1; /* Ensures the mobile menu appears above other elements */
+  }
+
+  .mobile-menu-list a {
+    color: black; /* Sets the text color of the mobile menu links to black */
+    padding: 12px 16px; /* Adds padding to the mobile menu links */
+    text-decoration: none; /* Removes underlining from the links */
+    display: block; /* Makes the mobile menu links block-level elements */
+  }
+
+  .mobile-menu-list a:hover {
+    background-color: #b5b2b2; /* Changes the background color to a greyish shade when the mobile menu link is hovered */
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #6f7d70; /* Changes the background color of the dropdown button on hover */
+  }
+
+  .dropdown:active .dropbtn {
+    background-color: #6f7d70; /* Changes the background color of the dropdown button when clicked (active state) */
+  }
+
+  .nav {
+    display: none; /* Hides the navigation links on small screens */
+  }
+}
+
+@media (max-width: 472px) {
+  /* Styles for screens smaller than 472px */
+
+  .form-field {
+    width: 100%; /* Sets the form field to take 100% width of the container */
+  }
+
+  .form-field input {
+    margin: 20px 0px; /* Adds 20px margin to the top and bottom of the input field */
+    background: grey; /* Sets the background color of the input field to grey */
+    border-color: grey; /* Sets the border color of the input field to grey */
+    color: rgb(79, 75, 75); /* Sets the text color of the input field to a dark grey */
+    width: 100%; /* Makes the input field take 100% width of the container */
+    max-width: 392px; /* Sets the maximum width of the input field to 392px */
+  }
+}
+
+.new_class {
+  text-decoration: underline; /* Adds underline to any element with the class 'new_class' */
+}
+
