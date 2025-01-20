@@ -58,6 +58,8 @@ h1 {
    justify-content: space-between; /* Distributes child elements with space between them */
    align-items: center; /* Vertically aligns child elements to the center */
    padding: 60px 120px; /* Adds padding inside the header with 60px top/bottom and 120px left/right */
+   position: sticky;
+   top: 0;
  }
  
  .nav {
