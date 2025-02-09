@@ -57,9 +57,9 @@ h1 {
    flex-direction: row; /* Aligns child elements in a horizontal row */
    justify-content: space-between; /* Distributes child elements with space between them */
    align-items: center; /* Vertically aligns child elements to the center */
-   padding: 60px 120px; /* Adds padding inside the header with 60px top/bottom and 120px left/right */
-   position: sticky;
-   top: 0;
+   padding: 40px 120px; /* Adds padding inside the header with 60px top/bottom and 120px left/right */
+   position: sticky; /* makes the header block to stay at the top when scrolling */
+   top: 0;/* makes the header block stay at the top position 0 */
  }
  
  .nav {
