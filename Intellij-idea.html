@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="working-scripts.js"></script>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css"> <!-- main .css file  -->
+    <title>QA Test Automation In IntelliJ IDEA - Selenium</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 75vh;
+        }
+        .paragraph {
+            display: inline-block;
+            padding: 0 20px;
+        }
+        .left-sidebar {
+            width: 300px;
+            height: 100%;
+            background-color: #F7F8FA;
+            padding: 10px;
+            border-right: 1px solid #555;
+            overflow: auto; /* Enables scrolling */
+        }
+        .top-sidebar {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 50px;
+            background-color: #F7F8FA;
+            padding: 10px;
+            border-bottom: 1px solid #555;
+
+        }
+        .left-sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .left-sidebar li {
+            padding: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .left-sidebar .menu-item {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        .left-sidebar li:hover {
+            background-color: #DFE1E5;
+        }
+        .left-sidebar li.expanded:hover {
+            background-color: #F7F8FA;
+        }
+        .icon {
+            margin-right: 5px;
+        }
+        .arrow {
+            transition: transform 0.3s;
+            margin-right: 5px;
+        }
+        .expanded > .menu-item .arrow {
+            transform: rotate(90deg);
+        }
+        .expanded > .submenu-item > .arrow {
+            transform: rotate(90deg);
+        }
+        .submenu {
+            display: none;
+            padding-left: 20px;
+            width: 100%;
+        }
+        .subsubmenu {
+            display: none;
+            padding-left: 20px;
+            width: 100%;
+        }
+        .expanded .submenu {
+            display: block;
+        }
+        .expanded .expanded .subsubmenu {
+            display: block;
+        }
+        .submenu li {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            width: 100%;
+            flex-direction: row; /* Ensure inline display */
+        }
+        .submenu .expanded {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            width: 100%;
+            flex-direction: column; /* Ensure inline display */
+        }
+        .subsubmenu li {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            width: 100%;
+            flex-direction: row; /* Ensure inline display */
+        }
+        .file li {
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            width: 100%;
+            flex-direction: row; /* Ensure inline display */
+        }
+        .left-sidebar a{
+            text-decoration: none;
+            color:#1F1F1F;
+        }
+        a.brown{
+            color:#84521A;
+        }
+        .greenicon{ /* <> */
+            color:#529457;
+        }
+        .disfolder{
+            color:#E49149;
+        }
+        a.disfolder{
+            color:#E49149;
+        }
+        .xmlicon{
+            color:#D77432;
+        }
+        .loader{
+            text-decoration: none;  
+        }
+        #editor{
+            width: 100%;
+            height: 100%;
+            border: 1px solid #ccc;
+            overflow: auto; /* Enables scrolling padding-left: 10px;*/
+            padding: 10px;
+             
+        }
+th {background: #336699; color: #FFFFFF; text-align: left;}
+    </style>
+    <script>
+        function toggleMenu(event) {
+            event.stopPropagation();
+            const item = event.currentTarget.parentElement;
+            item.classList.toggle('expanded');
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('#editor').load('/IntelliJ/CPB15.java.html');
+    
+        $('#navigation a.loader').click(function(e) {
+          e.preventDefault();
+          $("#editor").load(e.target.href);
+        })
+      });
+    </script>
+</head>
+<body>
+    <header>  
+        <span class="logo" id="logo"><a href="./index.html">NATALIA</a></span><!--LOGO --> 
+<!--START hidden mobile menu -->  <div id ="dropbtn" class="dropdown dropbtn">           
+        <div class="hamburger" id = "hamburger-id"><!--hamburger START --> 
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>    <!--hamburger END --> 
+            <div class="mobile-menu-list" id="mobile-menu-list-id"> <!--START hidden mobile menu list shown on hamburger click-->
+                <a href="#">About me</a>
+                <a href="#screen2">My Work</a>
+                <a href="#screen3">Work process</a>
+            </div>   <!--END hidden mobile menu list showm on hamburger click-->
+<!--hidden mobile menu END--></div>
+            
+            <span class="nav"><a href="./index.html">About me</a></span>
+            <span class="nav"><a href="./index.html#screen2">My Work</a></span>
+            <span class="nav"><a href="./index.html#screen3">Work process</a></span>
+        <span><a href="./index.html#screen4" class="btn clik">Contact Me</a></span>
+ </header>
+ <div class="top-sidebar">
+    <span><img class="round-corner center" src="./IntelliJ/intellij_icon.png"></span> <h3>QA Tests Automation In IntelliJ IDEA - Selenium</h3>
+ </div>
+    <div class="container">
+        <div class="left-sidebar">
+            <h3>Project Files</h3>
+            <ul id="navigation">
+                <li class="expanded">
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="icon">📁</span>CPBFramework</div>
+                </li>
+                <li>
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>.idea</div>
+                    <ul class="submenu">
+                        <li><span class="icon">∅</span><a class="brown loader" href="./IntelliJ/idea/gitignore.html">.gitignore</a></li>
+                        <li><span class="icon xmlicon">&lt;/&gt;</span><a class="brown loader" href="./IntelliJ/idea/compiler.xml.html">compiler.xml</a></li>
+                        <li><span class="icon xmlicon">&lt;/&gt;</span><a class="brown loader" href="./IntelliJ/idea/encodings.xml.html">encodinfs.xml</a></li>
+                        <li><span class="icon xmlicon">&lt;/&gt;</span><a class="brown loader" href="./IntelliJ/idea/jarRepositories.xml.html">jarRepositories.xml</a></li>
+                        <li><span class="icon xmlicon">&lt;/&gt;</span><a class="brown loader" href="./IntelliJ/idea/misc.xml.html">misc.xml</a></li>
+                        <li><span class="icon xmlicon">&lt;/&gt;</span><a class="brown loader" href="./IntelliJ/idea/vcs.xml.html">vcs.xml</a></li>
+                        <li><span class="icon xmlicon">&lt;/&gt;</span><a class="brown loader" href="./IntelliJ/idea/workspace.xml.html">workspace.xml</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>Configuration</div>
+                    <ul class="submenu">
+                        <li><span class="icon">⚙</span><a class="brown loader" href="./IntelliJ/Configuration/config.properties.html">config.properties</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>Drivers</div>
+                    <ul class="submenu">
+                        <li><span class="icon">💻</span><a class="brown" target="_blank" href="https://googlechromelabs.github.io/chrome-for-testing/">chromedriver</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>log</div>
+                    <ul class="submenu">
+                        <li><span class="icon greenicon">&lt;&gt;</span><a target="_blank" href="./IntelliJ/log/application.html">application.html</a></li>
+                        <li><span class="icon">📄</span><a class="loader" href="./IntelliJ/log/testlog.log.html">testlog.log</a></li>
+                        <li><span class="icon">📄</span><a class="loader" href="./IntelliJ/log/testlog1.log.html">testlog1.log</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>Screenshots</div>
+                    <ul class="submenu">
+                        <li><span class="icon">📄</span><a class="loader" href="./IntelliJ/Screenshots/CPB15.html">CPB15.png</a></li>
+                        <li><span class="icon">📄</span><a class="loader" href="./IntelliJ/Screenshots/CPB49CloneProduct.html">CPB49CloneProduct.png</a></li>
+                        <li><span class="icon">📄</span><a class="loader" href="./IntelliJ/Screenshots/CPB52LivePreview.html">CPB52LivePreview.png</a></li>
+                        <li><span class="icon">📄</span><a class="loader" href="./IntelliJ/Screenshots/CPB55AdminMode.html">CPB55AdminMode.png</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>src</div>
+                    <ul class="submenu">
+                        <li>
+                            <div class="submenu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>pageObjects</div>
+                            <ul class="subsubmenu">
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/pageObjects/AdminMode.java.html">AdminMode</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/pageObjects/CustomProduct.java.html">CustomProduct</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="submenu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>testCases</div>
+                            <ul class="subsubmenu">
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/BaseClass.java.html">BaseClass</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB15.java.html">CPB15</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB49CloneProduct.java.html">CPB49CloneProduct</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB50importJSON.java.html">CPB50importJSON</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB51Export.java.html">CPB51Export</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB52LivePreview.java.html">CPB52LivePreview</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB53CustomColorAddToCart.java.html">CPB53CustomColorAddToCart</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB54SavingChanges.java.html">PB54SavingChanges</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB55AdminMode.java.html">CPB55AdminMode</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/CPB57ReorderMode.java.html">CPB57ReorderMode</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="submenu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>testData</div>
+                            <ul class="subsubmenu">
+                                <li><span class="icon">&#123;&#125;</span><a class="loader" href="./IntelliJ/src/testData/9918750523691-1NataliaLeleko_json_import.json.html">9918750523691_import.json</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="submenu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>utilities</div>
+                            <ul class="subsubmenu">
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/utilities/ReadConfig.java.html">ReadConfig</a></li>
+                                <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/utilities/Reporting.java.html">Reporting</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+               <!-- <li>
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span><span class="disfolder">target</span></div>
+                    <ul class="submenu">
+                        <li><span class="icon">📄</span><a class="disfolder loader" href="./IntelliJ/target/idex.html">classes</a></li>
+                        <li><span class="icon">📄</span><a class="disfolder loader" href="./IntelliJ/target/idex.html">generated-sources</a></li>
+                        <li><span class="icon">📄</span><a class="disfolder loader" href="./IntelliJ/target/idex.html">generated-test-sources</a></li>
+                        <li><span class="icon">📄</span><a class="disfolder loader" href="./IntelliJ/target/idex.html">maven-status</a></li>
+                        <li><span class="icon">📄</span><a class="disfolder loader" href="./IntelliJ/target/idex.html">surefire-reports</a></li>
+                        <li><span class="icon">📄</span><a class="disfolder loader" href="./IntelliJ/target/idex.html">test-classes</a></li>
+                    </ul>
+                </li> -->
+
+                <li>
+                    <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>test-output</div>
+                    <ul class="submenu">
+                        <li><span class="icon greenicon">&lt;&gt;</span><a target="_blank" href="./IntelliJ/test-output/Test-Report-2025.03.01.16.45.11.html">Test-Report-2025.03.01.16.45.11.html</a></li>
+                        <li><span class="icon greenicon">&lt;&gt;</span><a target="_blank" href="./IntelliJ/test-output/Test-Report-2025.03.02.01.42.21.html">Test-Report-2025.03.02.01.42.21.html</a></li>
+                        <li><span class="icon greenicon">&lt;&gt;</span><a target="_blank" href="./IntelliJ/test-output/Test-Report-2025.03.03.13.07.20.html">Test-Report-2025.03.03.13.07.20.htm</a></li>
+                        <li><span class="icon greenicon">&lt;&gt;</span><a target="_blank" href="./IntelliJ/test-output/Test-Report-2025.03.04.00.20.03.html">Test-Report-2025.03.04.00.20.03.html</a></li>
+                    </ul>
+                </li>
+                <div class="file">
+                <li><span class="icon">∅</span><a class="brown loader" href="./IntelliJ/gitignore.html">.gitignore</a></li>
+                <li><span class="icon xmlicon">&lt;/&gt;</span><a class="brown loader" href="./IntelliJ/extent-config.xml.html">extent-config.xml</a></li>
+                <li><span class="icon">⚙</span><a class="brown loader" href="./IntelliJ/log4j.properties.html">log4j.properties</a></li>
+                <li><span class="icon">📄</span><a class="brown loader" href="./IntelliJ/pom.xml.html">pom.xml</a></li>
+                <li><span class="icon xmlicon">&lt;/&gt;</span><a class="brown loader" href="./IntelliJ/TestNG.xml.html">TestNG.xml</a></li>
+                </div>
+            </ul>
+        </div>
+        <div id="editor">
+            <div class="editor-header">
+                <h3>QA Automation Overview</h3>
+            </div>
+            <div class="code">
+
+                  
+                    <span class="paragraph">Quality Assurance automation is the process of using specialized software tools to perform tests on applications,
+                         ensuring they meet quality standards before release. This approach reduces human effort, speeds up testing cycles, 
+                         and improves accuracy by eliminating manual errors. Automated testing is widely used for regression, functional,
+                          performance, and load testing. This demonstration project utilizes Selenium and TestNG tools.
+                           Effective QA automation requires a well-defined strategy, robust test scripts,
+                            and continuous monitoring to maximize efficiency and maintain software quality.</span>
+                  <p><b>Key Benefits:</span></b>
+                  <ul>
+                    <li>
+                      <span>Faster execution than manual testing.</span>
+                    </li>
+                    <li>
+                      <span>Repeatability and consistency.</span>
+                    </li>
+                    <li>
+                      <span>Higher test coverage.</span>
+                    </li>
+                    <li>
+                      <span>Detects bugs early in the development cycle.</span>
+                    </li>
+                  </ul>
+                  <h3>
+                    <span>Common Automation Tools</span>
+                  </h3>
+                  <ul>
+                    <li>
+                      <span>Selenium</span>
+                      <span>(Web automation across browsers)</span>
+                    </li>
+                    <li>
+                      <span>JUnit</span>
+                      <span>(Java unit testing)</span>
+                    </li>
+                    <li>
+                      <span>TestComplete</span>
+                      <span>(Functional testing)</span>
+                    </li>
+                    <li>
+                      <span>Appium</span>
+                      <span>(Mobile testing)</span>
+                    </li>
+                    <li>
+                      <span>Postman</span>
+                      <span>(API testing)</span>
+                    </li>
+                    <li>
+                      <span>Cucumber</span>
+                      <span>(Behavior-Driven Development)</span>
+                    </li>
+                    <li>
+                      <span>Jenkins</span>
+                      <span>(CI/CD automation)</span>
+                    </li>
+                  </ul>
+                  <h3>
+                    <span>When to Automate?</span>
+                  </h3>
+                  <ul>
+                    <li>
+                      <span>Repetitive test cases (e.g., regression, smoke, sanity testing).</span>
+                    </li>
+                    <li>
+                      <span>Stable features with minimal changes.</span>
+                    </li>
+                    <li>
+                      <span>Time-consuming manual tests.</span>
+                    </li>
+                    <li>
+                      <span>Data-driven test cases.</span>
+                    </li>
+                  </ul>
+                  <h3>
+                    <span>Steps to Start Automation</span>
+                  </h3>
+                  <ol>
+                    <li>
+                      <span>Select test cases for automation.</span>
+                    </li>
+                    <li>
+                      <span>Choose an appropriate tool.</span>
+                    </li>
+                    <li>
+                      <span>Develop an automation strategy.</span>
+                    </li>
+                    <li>
+                      <span>Write test scripts.</span>
+                    </li>
+                    <li>
+                      <span>Execute scripts in a testing environment.</span>
+                    </li>
+                    <li>
+                      <span>Maintain and update tests regularly.</span>
+                    </li>
+                  </ol>
+                  <h3>
+                    <span>Challenges & Considerations</span>
+                  </h3>
+                  <ul>
+                    <li>
+                      <span>Not everything can be automated</span>
+                      <span>&ndash; Manual testing remains crucial for user experience.</span>
+                    </li>
+                    <li>
+                      <span>Initial setup is costly & time-consuming</span>
+                      <span>&ndash; Creating frameworks and test scripts requires investment.</span>
+                    </li>
+                    <li>
+                      <span>Continuous evaluation is needed</span>
+                      <span>&ndash; Automated tests must be updated as the application evolves.</span>
+                    </li>
+                  </ul>
+                  <h3>
+                    <span>Best Practices</span>
+                  </h3>
+                  <ul>
+                    <li>
+                      <span>Write tests with a </span><span>single purpose</span>
+                      <span>(one feature per test).</span>
+                    </li>
+                    <li>
+                      <span>Prioritize </span><span>quality over quantity</span>
+                      <span>in test scripts.</span>
+                    </li>
+                    <li>
+                      <span>Maintain tests regularly to adapt to software changes.</span>
+                    </li>
+                    <li>
+                      <span>Implement </span><span>CI/CD</span>
+                      <span>pipelines for automated, continuous testing.</span>
+                    </li>
+                    <li>
+                      <span>Combine </span><span>manual and automated testing</span>
+                      <span>for optimal software quality.</span>
+                    </li>
+                  </ul>
+                  <h3>
+                    <span>Selenium & WebDriver Overview</span>
+                  </h3>
+                  <p>
+                    <span>Selenium enables automated browser testing through WebDriver, supporting various programming languages (Java, Python, C#). It interacts with browsers by simulating user actions like clicking, typing, and navigating.</span>
+                  </p>
+                  <p><span>Key WebDriver Methods:</span></p>
+                  <ul>
+                    <li>
+                      <span>get()</span>
+                      <span>&ndash; Opens a webpage.</span>
+                    </li>
+                    <li>
+                      <span>findElement(By.id/name/cssSelector/xpath)</span>
+                      <span>&ndash; Locates web elements.</span>
+                    </li>
+                    <li>
+                      <span>sendKeys()</span>
+                      <span>&ndash; Inputs text into a field.</span>
+                    </li>
+                    <li>
+                      <span>click()</span>
+                      <span>&ndash; Simulates clicking a button.</span>
+                    </li>
+                    <li>
+                      <span>assertEquals()</span>
+                      <span>&ndash; Compares expected vs. actual results.</span>
+                    </li>
+                  </ul>
+                  <h3>
+                    <span>Assertions in Testing</span>
+                  </h3>
+                  <p>
+                    <span>Assertions validate expected outcomes in automated tests (e.g., </span>
+                    <span>assertTrue()</span><span>, </span>
+                    <span>assertEquals()</span>
+                    <span>). If a condition fails, the test stops, ensuring accurate validation.</span>
+                  </p>
+                  <h3>
+                    <span>Conclusion</span>
+                  </h3>
+                  <p>
+                    <span>Automation enhances software testing by increasing speed, accuracy, and test coverage. However, it should be complemented with manual testing for best results. The goal is </span>
+                    <span>a high-quality product through a combination of automated and manual tests</span>
+                    <span>.</span>
+                  </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer1280"> <!-- FOOTER element START-->
+        <div class="footer">
+                NATALIA
+            
+            <div class="social">
+              <ul>
+                  <li><a href="https://www.facebook.com/nnleleko">Facebook</a></li> <!--grandchild of footer-->
+                  <li><a href="https://www.instagram.com/lelnatalia">Instagram</a></li><!--siblings of other li-->
+                  <li><a href="https://t.me/Lelnatalia">Telegram</a></li><!--siblings-->
+              </ul>
+            </div>
+        </div><!-- END of <div class="footer"> -->
+</footer>    <!-- FOOTER element END--> 
+</body>
+</html>

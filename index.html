@@ -61,8 +61,8 @@
                     <p> System Improvments</p></li>
 <!-- MIDLE CARD --><li><img class="round-corner center" src="img/6258948D-0FA0-4021-AA5B-93CB31CC9AF7_1_105_c.jpeg">Project Beta
                     <p>Manufacturing issues</p></li> 
-<!-- RIGHT CARD --><li><img class="round-corner center" src="img/49AB0C9E-5CB2-475E-8EA9-788BD48F597F_1_105_c.jpeg">Project Gamma
-                    <p>Security improvments</p></li>
+<!-- RIGHT CARD --><li><a href="./Intellij-idea.html"><img class="round-corner center" src="img/49AB0C9E-5CB2-475E-8EA9-788BD48F597F_1_105_c.jpeg">Project Gamma
+                    <p>QA Test Automation</p></a></li>
                 </ul>
             </div><!-- END of MY WORK block with cards -->
             <div id="screen3" class="screen1280"><!-- START of MY WORK PROCESS block with bullenin -->
@@ -79,16 +79,20 @@
                 <p class="slogan-W">Get in touch!</p>               
                     <div>Just fill out the form below and send me your message</div>
                     <div class="form-field">
-                        <form action="" method="post" id="form1"><!-- START of CONTACT FORM -->
-                        <div>
-                            <input type="text" placeholder= "your name"><!-- INPUT FIELD NAME -->
-                            <input type="text" placeholder= "your e-mail"><!-- INPUT FIELD EMAIL -->
-                        </div>
-                        <div>
-                        <textarea  rows="3" placeholder="your message"></textarea><!-- MESSAGE INPUT FIELD -->
-                        </div>
-                    
-                    <button class="btnw clik" type="submit" form="form1" value="Submit">Send message</button><!-- SUBMIT BUTTON -->
+                        <form id="contactForm"><!-- START of CONTACT FORM -->
+                            <div>
+                                <input id="name" type="text" placeholder="Your Name">
+                                <span id="nameError" class="error"></span>
+                            </div>
+                            <div>
+                                <input id="email" type="text" placeholder="Your E-mail">
+                                <span id="emailError" class="error"></span>
+                            </div>
+                            <div>
+                                <textarea id="message" rows="3" placeholder="Your Message"></textarea>
+                                <span id="messageError" class="error"></span>
+                            </div>                   
+                    <button class="btnw clik" type="submit" value="submit">Send message</button><!-- SUBMIT BUTTON -->
                     </form><!-- END of CONTACT FORM -->
                     </div><!-- END of div class="form-field" -->
                 </div><!-- END of div id="screen4" -->

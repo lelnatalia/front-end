@@ -1,0 +1,704 @@
+2025-03-01 12:36:49,968 - CPB Stage -INFO - open stage site
+2025-03-01 12:36:50,010 - CPB Stage -INFO - switch to iFrame
+2025-03-01 12:36:53,936 - CPB Stage -INFO - click Edit
+2025-03-01 12:36:55,560 - CPB Stage -INFO - click Admin Mode
+2025-03-01 12:36:58,723 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 13:07:00,324 - CPB Stage -INFO - open stage site
+2025-03-01 13:07:00,369 - CPB Stage -INFO - switch to iFrame
+2025-03-01 13:07:03,747 - CPB Stage -INFO - click Edit
+2025-03-01 13:07:05,369 - CPB Stage -INFO - click Admin Mode
+2025-03-01 13:07:08,041 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 13:07:08,301 - CPB Stage -INFO - Test Failed-null
+2025-03-01 13:08:36,611 - CPB Stage -INFO - open stage site
+2025-03-01 13:08:36,658 - CPB Stage -INFO - switch to iFrame
+2025-03-01 13:08:40,061 - CPB Stage -INFO - click Edit
+2025-03-01 13:08:41,683 - CPB Stage -INFO - click Admin Mode
+2025-03-01 13:08:44,806 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 13:08:45,079 - CPB Stage -INFO - Test Failed-null
+2025-03-01 13:16:17,531 - CPB Stage -INFO - open stage site
+2025-03-01 13:16:17,584 - CPB Stage -INFO - switch to iFrame
+2025-03-01 13:16:21,485 - CPB Stage -INFO - click Edit
+2025-03-01 13:16:23,109 - CPB Stage -INFO - click Admin Mode
+2025-03-01 13:16:34,015 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 13:16:34,261 - CPB Stage -INFO - Test Failed-null
+2025-03-01 13:18:31,843 - CPB Stage -INFO - open stage site
+2025-03-01 13:18:31,882 - CPB Stage -INFO - switch to iFrame
+2025-03-01 13:18:35,773 - CPB Stage -INFO - click Edit
+2025-03-01 13:18:37,403 - CPB Stage -INFO - click Admin Mode
+2025-03-01 13:18:40,153 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 13:19:51,014 - CPB Stage -INFO - open stage site
+2025-03-01 13:19:51,055 - CPB Stage -INFO - switch to iFrame
+2025-03-01 13:19:54,438 - CPB Stage -INFO - click Edit
+2025-03-01 13:19:56,053 - CPB Stage -INFO - click Admin Mode
+2025-03-01 13:19:58,692 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 13:29:10,392 - CPB Stage -INFO - open stage site
+2025-03-01 13:29:10,450 - CPB Stage -INFO - switch to iFrame
+2025-03-01 13:29:14,353 - CPB Stage -INFO - click Edit
+2025-03-01 13:29:15,996 - CPB Stage -INFO - click Admin Mode
+2025-03-01 13:29:26,384 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 13:29:26,597 - CPB Stage -INFO - Assert Failed- 'RANDOM TEXT TO FAIL' NOT FOUND on the pageexpected [true] but found [false]
+2025-03-01 13:51:20,103 - CPB Stage -INFO - open stage site
+2025-03-01 13:51:20,147 - CPB Stage -INFO - switch to iFrame
+2025-03-01 13:51:23,509 - CPB Stage -INFO - click Edit
+2025-03-01 13:51:24,598 - CPB Stage -INFO - click Admin Mode
+2025-03-01 13:52:35,771 - CPB Stage -INFO - Test Failed-Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: cpb' (tried for 60 second(s) with 500 milliseconds interval)
+2025-03-01 13:57:59,941 - CPB Stage -INFO - open stage site
+2025-03-01 13:57:59,997 - CPB Stage -INFO - switch to iFrame
+2025-03-01 13:58:03,987 - CPB Stage -INFO - click Edit
+2025-03-01 13:58:05,075 - CPB Stage -INFO - click Admin Mode
+2025-03-01 14:03:50,145 - CPB Stage -INFO - open stage site
+2025-03-01 14:03:50,189 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:03:54,115 - CPB Stage -INFO - click Edit
+2025-03-01 14:03:55,739 - CPB Stage -INFO - click Admin Mode
+2025-03-01 14:03:58,557 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 14:03:58,847 - CPB Stage -INFO - Assert Failed- 'RANDOM TEXT TO FAIL' NOT FOUND on the page. expected [true] but found [false]
+2025-03-01 14:04:02,733 - CPB Stage -INFO - open stage site
+2025-03-01 14:04:02,778 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:04:25,564 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-01 14:04:29,274 - CPB Stage -INFO - open stage site
+2025-03-01 14:04:29,304 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:04:29,402 - CPB Stage -INFO - click create new button
+2025-03-01 14:04:29,433 - CPB Stage -INFO - click import checkbox
+2025-03-01 14:04:29,478 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 14:04:29,505 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 14:04:30,579 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 14:04:30,666 - CPB Stage -INFO - Test PASSED
+2025-03-01 14:04:34,077 - CPB Stage -INFO - open stage site
+2025-03-01 14:04:34,101 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:04:40,947 - CPB Stage -INFO - click live preview button
+2025-03-01 14:04:42,762 - CPB Stage -INFO - click password field
+2025-03-01 14:04:42,774 - CPB Stage -INFO - Test PASSED
+2025-03-01 14:04:46,439 - CPB Stage -INFO - open stage site
+2025-03-01 14:04:46,472 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:05:03,942 - CPB Stage -INFO - click edit button
+2025-03-01 14:05:09,155 - CPB Stage -INFO - click color thumbnail
+2025-03-01 14:05:12,224 - CPB Stage -INFO - click add to Cart
+2025-03-01 14:05:15,695 - CPB Stage -INFO - open stage site
+2025-03-01 14:05:15,718 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:05:19,612 - CPB Stage -INFO - click Edit
+2025-03-01 14:05:21,239 - CPB Stage -INFO - click Admin Mode On
+2025-03-01 14:05:24,394 - CPB Stage -INFO - click New Custom Option
+2025-03-01 14:05:25,016 - CPB Stage -INFO - click Title Field
+2025-03-01 14:05:25,044 - CPB Stage -INFO - click Custom Option Type
+2025-03-01 14:05:25,240 - CPB Stage -INFO - click Save Custom Option Button
+2025-03-01 14:05:25,955 - CPB Stage -INFO - 2nd click Save Custom Option Button
+2025-03-01 14:05:26,156 - CPB Stage -INFO - click Save Product Button
+2025-03-01 14:05:29,475 - CPB Stage -INFO - open stage site
+2025-03-01 14:05:29,503 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:05:33,364 - CPB Stage -INFO - click Edit
+2025-03-01 14:05:34,986 - CPB Stage -INFO - click Admin Mode
+2025-03-01 14:05:38,688 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 14:05:40,775 - CPB Stage -INFO - Test PASSED
+2025-03-01 14:05:44,336 - CPB Stage -INFO - open stage site
+2025-03-01 14:05:44,360 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:05:47,712 - CPB Stage -INFO - click Edit
+2025-03-01 14:05:49,324 - CPB Stage -INFO - click Admin Mode On
+2025-03-01 14:05:52,465 - CPB Stage -INFO - Test PASSED
+2025-03-01 14:05:52,465 - CPB Stage -INFO - click Reorder On
+2025-03-01 14:05:52,581 - CPB Stage -INFO - Test PASSED
+2025-03-01 14:05:52,582 - CPB Stage -INFO - click Reorder Off
+2025-03-01 14:05:56,116 - CPB Stage -INFO - open stage site
+2025-03-01 14:05:56,143 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:06:13,627 - CPB Stage -INFO - click edit button
+2025-03-01 14:06:15,216 - CPB Stage -INFO - click settings button
+2025-03-01 14:06:15,761 - CPB Stage -INFO - click import export block
+2025-03-01 14:06:15,789 - CPB Stage -INFO - click export radio button
+2025-03-01 14:06:17,819 - CPB Stage -INFO - click download button
+2025-03-01 14:06:17,869 - CPB Stage -INFO - click apply button
+2025-03-01 14:13:05,181 - CPB Stage -INFO - open stage site
+2025-03-01 14:13:05,235 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:13:29,121 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-01 14:13:29,354 - CPB Stage -INFO - Assert Failed- '1NataliaLeleko-Copy' NOT FOUND on the page. null
+2025-03-01 14:23:04,107 - CPB Stage -INFO - open stage site
+2025-03-01 14:23:04,149 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:23:54,442 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-01 14:23:54,577 - CPB Stage -INFO - Test PASSED
+2025-03-01 14:23:55,811 - CPB Stage -INFO - click delete button- 1NataliaLeleko-Copy
+2025-03-01 14:23:55,913 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko-Copy
+2025-03-01 14:29:44,499 - CPB Stage -INFO - open stage site
+2025-03-01 14:29:44,548 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:29:44,659 - CPB Stage -INFO - click create new button
+2025-03-01 14:29:44,691 - CPB Stage -INFO - click import checkbox
+2025-03-01 14:29:44,735 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 14:29:44,767 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 14:30:30,788 - CPB Stage -INFO - Test Failed-Expected condition failed: waiting for text ('1NataliaLeleko') to be present in element [[ChromeDriver: chrome on MAC (6f28e5c8cda40439a84bc9132f6fa30c)] -> xpath: /html/body/div[2]/div/div/div/div[2]] (tried for 45 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6f28e5c8cda40439a84bc9132f6fa30c
+2025-03-01 14:34:16,776 - CPB Stage -INFO - open stage site
+2025-03-01 14:34:16,834 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:34:16,947 - CPB Stage -INFO - click create new button
+2025-03-01 14:34:16,978 - CPB Stage -INFO - click import checkbox
+2025-03-01 14:34:17,015 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 14:34:17,045 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 14:35:04,014 - CPB Stage -INFO - Test Failed-Expected condition failed: waiting for text ('1NataliaLeleko') to be present in element Proxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/div/div/div/div[2]' (tried for 45 second(s) with 500 milliseconds interval)
+2025-03-01 14:44:12,628 - CPB Stage -INFO - open stage site
+2025-03-01 14:44:12,686 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:44:12,798 - CPB Stage -INFO - click create new button
+2025-03-01 14:44:12,834 - CPB Stage -INFO - click import checkbox
+2025-03-01 14:44:12,879 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 14:44:12,905 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 14:45:06,696 - CPB Stage -INFO - Test Failed-Expected condition failed: waiting for text ('1NataliaLeleko') to be present in element Proxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/div/div/div/div[2]' (tried for 45 second(s) with 500 milliseconds interval)
+2025-03-01 14:54:02,794 - CPB Stage -INFO - open stage site
+2025-03-01 14:54:02,838 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:54:02,949 - CPB Stage -INFO - click create new button
+2025-03-01 14:54:02,980 - CPB Stage -INFO - click import checkbox
+2025-03-01 14:54:03,025 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 14:54:03,051 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 14:54:11,609 - CPB Stage -INFO - Test Failed-stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19d1415528a150239f0482c542cba8fc
+2025-03-01 14:55:28,964 - CPB Stage -INFO - open stage site
+2025-03-01 14:55:31,297 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:55:31,413 - CPB Stage -INFO - click create new button
+2025-03-01 14:55:31,444 - CPB Stage -INFO - click import checkbox
+2025-03-01 14:55:31,481 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 14:55:31,511 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 14:55:40,448 - CPB Stage -INFO - Test Failed-stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8929905f3a2f32448dc09c8a15c11b99
+2025-03-01 14:58:59,703 - CPB Stage -INFO - open stage site
+2025-03-01 14:58:59,752 - CPB Stage -INFO - switch to iFrame
+2025-03-01 14:58:59,857 - CPB Stage -INFO - click create new button
+2025-03-01 14:58:59,888 - CPB Stage -INFO - click import checkbox
+2025-03-01 14:58:59,920 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 14:58:59,951 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 14:59:30,536 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 14:59:30,674 - CPB Stage -INFO - Test PASSED
+2025-03-01 15:00:16,150 - CPB Stage -INFO - Test Failed-Expected condition failed: waiting for text ('1NataliaLeleko-Copy') to be present in element [[ChromeDriver: chrome on MAC (a26f3ce7d26c17c1c588ba04ed653c8a)] -> xpath: /html/body/div[2]/div/div/div/div[2]] (tried for 45 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a26f3ce7d26c17c1c588ba04ed653c8a
+2025-03-01 15:34:32,270 - CPB Stage -INFO - open stage site
+2025-03-01 15:34:32,330 - CPB Stage -INFO - switch to iFrame
+2025-03-01 15:34:32,443 - CPB Stage -INFO - click create new button
+2025-03-01 15:34:32,475 - CPB Stage -INFO - click import checkbox
+2025-03-01 15:34:32,520 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 15:34:32,550 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 15:35:03,690 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 15:35:03,843 - CPB Stage -INFO - Test PASSED
+2025-03-01 15:35:04,988 - CPB Stage -INFO - Test Failed-no such element: Unable to locate element: {"method":"xpath","selector":"//li[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//div/div/div/div[contains(text(), 'Delete')]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19aef8956db33ed9d00abe7dceb901eb
+*** Element info: {Using=xpath, value=//li[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//div/div/div/div[contains(text(), 'Delete')]}
+2025-03-01 15:50:33,424 - CPB Stage -INFO - open stage site
+2025-03-01 15:50:33,486 - CPB Stage -INFO - switch to iFrame
+2025-03-01 15:50:33,597 - CPB Stage -INFO - click create new button
+2025-03-01 15:50:33,631 - CPB Stage -INFO - click import checkbox
+2025-03-01 15:50:33,673 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 15:50:33,701 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 15:51:07,171 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 15:51:07,316 - CPB Stage -INFO - Test PASSED
+2025-03-01 15:51:08,446 - CPB Stage -INFO - Test Failed-invalid selector: Unable to locate an element with the xpath expression //li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling:://div[contains(text(), 'Delete')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling:://div[contains(text(), 'Delete')]' is not a valid XPath expression.
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8791d22bb7a61fdeab64a1e62546c3d7
+*** Element info: {Using=xpath, value=//li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling:://div[contains(text(), 'Delete')]}
+2025-03-01 15:53:06,312 - CPB Stage -INFO - open stage site
+2025-03-01 15:53:06,369 - CPB Stage -INFO - switch to iFrame
+2025-03-01 15:53:06,484 - CPB Stage -INFO - click create new button
+2025-03-01 15:53:06,517 - CPB Stage -INFO - click import checkbox
+2025-03-01 15:53:06,559 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 15:53:06,588 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 15:53:36,033 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 15:53:36,177 - CPB Stage -INFO - Test PASSED
+2025-03-01 15:53:37,312 - CPB Stage -INFO - Test Failed-no such element: Unable to locate element: {"method":"xpath","selector":"//li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling::div//div[contains(text(), 'Delete')]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd651a609ccfc241d5cef2be0808786a
+*** Element info: {Using=xpath, value=//li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling::div//div[contains(text(), 'Delete')]}
+2025-03-01 15:57:44,351 - CPB Stage -INFO - open stage site
+2025-03-01 15:57:44,406 - CPB Stage -INFO - switch to iFrame
+2025-03-01 15:57:44,529 - CPB Stage -INFO - click create new button
+2025-03-01 15:57:44,569 - CPB Stage -INFO - click import checkbox
+2025-03-01 15:57:44,609 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 15:57:44,637 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 15:58:15,463 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 15:58:15,599 - CPB Stage -INFO - Test PASSED
+2025-03-01 15:58:16,737 - CPB Stage -INFO - Test Failed-no such element: Unable to locate element: {"method":"xpath","selector":"//li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling::div[contains(text(), 'Delete')]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44bfa82a769dd79fc9fd29e735c620d4
+*** Element info: {Using=xpath, value=//li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling::div[contains(text(), 'Delete')]}
+2025-03-01 16:00:54,590 - CPB Stage -INFO - open stage site
+2025-03-01 16:00:54,634 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:00:54,756 - CPB Stage -INFO - click create new button
+2025-03-01 16:00:54,787 - CPB Stage -INFO - click import checkbox
+2025-03-01 16:00:54,833 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 16:00:54,862 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 16:01:25,570 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 16:01:25,727 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:01:26,837 - CPB Stage -INFO - Test Failed-no such element: Unable to locate element: {"method":"xpath","selector":"//li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling::div/div/div[contains(text(), 'Delete')]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54373}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bff36da88d34784b08ed566271420de2
+*** Element info: {Using=xpath, value=//li//div[contains(text(), 'Copy Of 1NataliaLeleko_json_import')]//following-sibling::div/div/div[contains(text(), 'Delete')]}
+2025-03-01 16:08:10,313 - CPB Stage -INFO - open stage site
+2025-03-01 16:08:10,372 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:08:10,486 - CPB Stage -INFO - click create new button
+2025-03-01 16:08:10,521 - CPB Stage -INFO - click import checkbox
+2025-03-01 16:08:10,555 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 16:08:10,581 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 16:08:41,910 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 16:08:42,043 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:08:43,284 - CPB Stage -INFO - Test Failed-no such element: Unable to locate element: {"method":"xpath","selector":"//li//div[contains(text(), '1NataliaLeleko_json_import')]//parent::div/div/div[contains(text(), 'Delete')]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59720}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 16abb5d2447d7072351612941471e7a4
+*** Element info: {Using=xpath, value=//li//div[contains(text(), '1NataliaLeleko_json_import')]//parent::div/div/div[contains(text(), 'Delete')]}
+2025-03-01 16:22:25,524 - CPB Stage -INFO - open stage site
+2025-03-01 16:22:25,568 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:22:25,682 - CPB Stage -INFO - click create new button
+2025-03-01 16:22:25,717 - CPB Stage -INFO - click import checkbox
+2025-03-01 16:22:25,753 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 16:22:25,782 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 16:22:58,699 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 16:22:58,846 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:22:59,967 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-01 16:23:45,377 - CPB Stage -INFO - Test Failed-Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: /html/body/div[4]/div/div[6]/button[1]' (tried for 45 second(s) with 500 milliseconds interval)
+2025-03-01 16:27:23,360 - CPB Stage -INFO - open stage site
+2025-03-01 16:27:23,412 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:27:23,532 - CPB Stage -INFO - click create new button
+2025-03-01 16:27:23,573 - CPB Stage -INFO - click import checkbox
+2025-03-01 16:27:23,614 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 16:27:23,650 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 16:27:55,090 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 16:27:55,244 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:27:56,372 - CPB Stage -INFO - Test Failed-no such element: Unable to locate element: {"method":"xpath","selector":"//li//div[contains(text(), '1NataliaLeleko_json_import')]//parent::div//parent::div[contains(text(), 'Delete')]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55702}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d730ea4da61cdeee6f3dcf682a557ee
+*** Element info: {Using=xpath, value=//li//div[contains(text(), '1NataliaLeleko_json_import')]//parent::div//parent::div[contains(text(), 'Delete')]}
+2025-03-01 16:29:38,782 - CPB Stage -INFO - open stage site
+2025-03-01 16:29:38,839 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:29:38,951 - CPB Stage -INFO - click create new button
+2025-03-01 16:29:38,989 - CPB Stage -INFO - click import checkbox
+2025-03-01 16:29:39,033 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 16:29:39,060 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 16:30:11,058 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 16:30:11,182 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:30:12,308 - CPB Stage -INFO - Test Failed-no such element: Unable to locate element: {"method":"xpath","selector":"//li//div[contains(text(), '1NataliaLeleko_json_import')]//parent::div//parent::div/div/div[contains(text(), 'Delete')]"}
+  (Session info: chrome=133.0.6943.142)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Natalias-MacBook-Pro.local', ip: '2601:1c0:5000:dbb0:0:0:0:ec8b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.53 (9a80935019b0..., userDataDir: /var/folders/29/fzh8jrx97bb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0da43a3b4f505c1291d14d7a1ffbf8b1
+*** Element info: {Using=xpath, value=//li//div[contains(text(), '1NataliaLeleko_json_import')]//parent::div//parent::div/div/div[contains(text(), 'Delete')]}
+2025-03-01 16:33:58,459 - CPB Stage -INFO - open stage site
+2025-03-01 16:33:58,499 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:33:58,605 - CPB Stage -INFO - click create new button
+2025-03-01 16:33:58,641 - CPB Stage -INFO - click import checkbox
+2025-03-01 16:33:58,678 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 16:33:58,707 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 16:34:36,203 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 16:34:36,351 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:34:37,544 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-01 16:34:37,645 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-01 16:45:15,539 - CPB Stage -INFO - open stage site
+2025-03-01 16:45:15,587 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:45:18,991 - CPB Stage -INFO - click Edit
+2025-03-01 16:45:20,612 - CPB Stage -INFO - click Admin Mode
+2025-03-01 16:45:23,769 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 16:45:24,046 - CPB Stage -INFO - Assert Failed- 'RANDOM TEXT TO FAIL' NOT FOUND on the page. expected [true] but found [false]
+2025-03-01 16:45:27,476 - CPB Stage -INFO - open stage site
+2025-03-01 16:45:27,506 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:46:16,010 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-01 16:46:16,145 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:46:17,401 - CPB Stage -INFO - click delete button- 1NataliaLeleko-Copy
+2025-03-01 16:46:17,493 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko-Copy
+2025-03-01 16:46:19,230 - CPB Stage -INFO - open stage site
+2025-03-01 16:46:21,297 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:46:21,398 - CPB Stage -INFO - click create new button
+2025-03-01 16:46:21,427 - CPB Stage -INFO - click import checkbox
+2025-03-01 16:46:21,477 - CPB Stage -INFO - input JsonFile into Field
+2025-03-01 16:46:21,506 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-01 16:46:59,632 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-01 16:46:59,763 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:47:00,977 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-01 16:47:01,114 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-01 16:47:04,940 - CPB Stage -INFO - open stage site
+2025-03-01 16:47:04,964 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:47:08,214 - CPB Stage -INFO - click live preview button
+2025-03-01 16:47:09,933 - CPB Stage -INFO - click password field
+2025-03-01 16:47:09,961 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:47:13,755 - CPB Stage -INFO - open stage site
+2025-03-01 16:47:13,794 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:47:31,230 - CPB Stage -INFO - click edit button
+2025-03-01 16:47:36,432 - CPB Stage -INFO - click color thumbnail
+2025-03-01 16:47:39,500 - CPB Stage -INFO - click add to Cart
+2025-03-01 16:47:43,007 - CPB Stage -INFO - open stage site
+2025-03-01 16:47:43,026 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:47:46,438 - CPB Stage -INFO - click Edit
+2025-03-01 16:47:48,047 - CPB Stage -INFO - click Admin Mode On
+2025-03-01 16:47:50,843 - CPB Stage -INFO - click New Custom Option
+2025-03-01 16:47:51,489 - CPB Stage -INFO - click Title Field
+2025-03-01 16:47:51,538 - CPB Stage -INFO - click Custom Option Type
+2025-03-01 16:47:51,739 - CPB Stage -INFO - click Save Custom Option Button
+2025-03-01 16:47:52,446 - CPB Stage -INFO - 2nd click Save Custom Option Button
+2025-03-01 16:47:52,621 - CPB Stage -INFO - click Save Product Button
+2025-03-01 16:47:56,228 - CPB Stage -INFO - open stage site
+2025-03-01 16:47:56,262 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:48:00,167 - CPB Stage -INFO - click Edit
+2025-03-01 16:48:01,808 - CPB Stage -INFO - click Admin Mode
+2025-03-01 16:48:11,720 - CPB Stage -INFO - click on New Custom Option
+2025-03-01 16:48:13,826 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:48:17,222 - CPB Stage -INFO - open stage site
+2025-03-01 16:48:17,245 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:48:20,633 - CPB Stage -INFO - click Edit
+2025-03-01 16:48:22,248 - CPB Stage -INFO - click Admin Mode On
+2025-03-01 16:48:24,897 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:48:24,897 - CPB Stage -INFO - click Reorder On
+2025-03-01 16:48:25,015 - CPB Stage -INFO - Test PASSED
+2025-03-01 16:48:25,016 - CPB Stage -INFO - click Reorder Off
+2025-03-01 16:48:28,280 - CPB Stage -INFO - open stage site
+2025-03-01 16:48:28,304 - CPB Stage -INFO - switch to iFrame
+2025-03-01 16:48:45,230 - CPB Stage -INFO - click edit button
+2025-03-01 16:48:46,828 - CPB Stage -INFO - click settings button
+2025-03-01 16:48:47,367 - CPB Stage -INFO - click import export block
+2025-03-01 16:48:47,394 - CPB Stage -INFO - click export radio button
+2025-03-01 16:48:49,445 - CPB Stage -INFO - click download button
+2025-03-01 16:48:49,522 - CPB Stage -INFO - click apply button
+2025-03-02 01:42:27,517 - CPB Stage -INFO - open stage site
+2025-03-02 01:42:27,580 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:42:31,024 - CPB Stage -INFO - click Edit
+2025-03-02 01:42:32,654 - CPB Stage -INFO - click Admin Mode
+2025-03-02 01:42:42,126 - CPB Stage -INFO - click on New Custom Option
+2025-03-02 01:42:42,396 - CPB Stage -INFO - Assert Failed- 'RANDOM TEXT TO FAIL' NOT FOUND on the page. expected [true] but found [false]
+2025-03-02 01:42:46,584 - CPB Stage -INFO - open stage site
+2025-03-02 01:42:46,621 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:43:36,801 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-02 01:43:36,921 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:43:38,132 - CPB Stage -INFO - click delete button- 1NataliaLeleko-Copy
+2025-03-02 01:43:38,230 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko-Copy
+2025-03-02 01:43:41,841 - CPB Stage -INFO - open stage site
+2025-03-02 01:43:41,866 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:43:41,960 - CPB Stage -INFO - click create new button
+2025-03-02 01:43:41,989 - CPB Stage -INFO - click import checkbox
+2025-03-02 01:43:42,025 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 01:43:42,053 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 01:44:12,034 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 01:44:12,183 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:44:13,469 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 01:44:13,580 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 01:44:17,048 - CPB Stage -INFO - open stage site
+2025-03-02 01:44:17,071 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:44:20,294 - CPB Stage -INFO - click live preview button
+2025-03-02 01:44:21,972 - CPB Stage -INFO - click password field
+2025-03-02 01:44:21,988 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:44:25,254 - CPB Stage -INFO - open stage site
+2025-03-02 01:44:25,281 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:44:41,937 - CPB Stage -INFO - click edit button
+2025-03-02 01:44:46,171 - CPB Stage -INFO - click color thumbnail
+2025-03-02 01:44:49,230 - CPB Stage -INFO - click add to Cart
+2025-03-02 01:44:52,775 - CPB Stage -INFO - open stage site
+2025-03-02 01:44:52,796 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:44:55,687 - CPB Stage -INFO - click Edit
+2025-03-02 01:44:56,777 - CPB Stage -INFO - click Admin Mode On
+2025-03-02 01:45:00,034 - CPB Stage -INFO - click New Custom Option
+2025-03-02 01:45:00,715 - CPB Stage -INFO - click Title Field
+2025-03-02 01:45:00,749 - CPB Stage -INFO - click Custom Option Type
+2025-03-02 01:45:00,980 - CPB Stage -INFO - click Save Custom Option Button
+2025-03-02 01:45:01,667 - CPB Stage -INFO - 2nd click Save Custom Option Button
+2025-03-02 01:45:01,843 - CPB Stage -INFO - click Save Product Button
+2025-03-02 01:45:05,652 - CPB Stage -INFO - open stage site
+2025-03-02 01:45:05,688 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:45:08,524 - CPB Stage -INFO - click Edit
+2025-03-02 01:45:10,141 - CPB Stage -INFO - click Admin Mode
+2025-03-02 01:45:12,790 - CPB Stage -INFO - click on New Custom Option
+2025-03-02 01:45:14,890 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:45:18,211 - CPB Stage -INFO - open stage site
+2025-03-02 01:45:18,240 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:45:21,033 - CPB Stage -INFO - click Edit
+2025-03-02 01:45:22,633 - CPB Stage -INFO - click Admin Mode On
+2025-03-02 01:45:25,464 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:45:25,466 - CPB Stage -INFO - click Reorder On
+2025-03-02 01:45:25,602 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:45:25,602 - CPB Stage -INFO - click Reorder Off
+2025-03-02 01:45:28,952 - CPB Stage -INFO - open stage site
+2025-03-02 01:45:28,981 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:45:45,983 - CPB Stage -INFO - click edit button
+2025-03-02 01:45:47,580 - CPB Stage -INFO - click settings button
+2025-03-02 01:45:48,121 - CPB Stage -INFO - click import export block
+2025-03-02 01:45:48,151 - CPB Stage -INFO - click export radio button
+2025-03-02 01:45:50,197 - CPB Stage -INFO - click download button
+2025-03-02 01:45:50,249 - CPB Stage -INFO - click apply button
+2025-03-02 01:46:38,707 - CPB Stage -INFO - open stage site
+2025-03-02 01:46:38,749 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:46:38,863 - CPB Stage -INFO - click create new button
+2025-03-02 01:46:38,894 - CPB Stage -INFO - click import checkbox
+2025-03-02 01:46:38,937 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 01:46:38,970 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 01:47:08,935 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 01:47:09,079 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:47:10,262 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 01:47:10,368 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 01:54:39,693 - CPB Stage -INFO - open stage site
+2025-03-02 01:54:39,741 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:54:39,854 - CPB Stage -INFO - click create new button
+2025-03-02 01:54:39,888 - CPB Stage -INFO - click import checkbox
+2025-03-02 01:54:39,924 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 01:54:39,957 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 01:55:09,181 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 01:55:09,355 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:55:10,555 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 01:55:10,665 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 01:57:38,293 - CPB Stage -INFO - open stage site
+2025-03-02 01:57:38,335 - CPB Stage -INFO - switch to iFrame
+2025-03-02 01:58:31,548 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-02 01:58:31,698 - CPB Stage -INFO - Test PASSED
+2025-03-02 01:58:32,912 - CPB Stage -INFO - click delete button- 1NataliaLeleko-Copy
+2025-03-02 01:58:33,018 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko-Copy
+2025-03-02 02:02:44,876 - CPB Stage -INFO - open stage site
+2025-03-02 02:02:44,921 - CPB Stage -INFO - switch to iFrame
+2025-03-02 02:02:45,035 - CPB Stage -INFO - click create new button
+2025-03-02 02:02:45,066 - CPB Stage -INFO - click import checkbox
+2025-03-02 02:02:45,108 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 02:02:45,138 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 02:03:16,167 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 02:03:16,322 - CPB Stage -INFO - Test PASSED
+2025-03-02 02:03:17,526 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 02:03:17,672 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 02:11:18,636 - CPB Stage -INFO - open stage site
+2025-03-02 02:11:18,693 - CPB Stage -INFO - switch to iFrame
+2025-03-02 02:11:18,810 - CPB Stage -INFO - click create new button
+2025-03-02 02:11:18,845 - CPB Stage -INFO - click import checkbox
+2025-03-02 02:11:18,882 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 02:11:18,913 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 02:11:55,832 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 02:11:56,027 - CPB Stage -INFO - Test PASSED
+2025-03-02 02:11:57,238 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 02:11:59,375 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 02:19:20,292 - CPB Stage -INFO - open stage site
+2025-03-02 02:19:20,356 - CPB Stage -INFO - switch to iFrame
+2025-03-02 02:19:20,469 - CPB Stage -INFO - click create new button
+2025-03-02 02:19:20,508 - CPB Stage -INFO - click import checkbox
+2025-03-02 02:19:20,543 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 02:19:20,573 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 02:19:51,041 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 02:19:51,192 - CPB Stage -INFO - Test PASSED
+2025-03-02 02:19:52,371 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 02:19:52,490 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 02:21:47,964 - CPB Stage -INFO - open stage site
+2025-03-02 02:21:48,007 - CPB Stage -INFO - switch to iFrame
+2025-03-02 02:21:48,120 - CPB Stage -INFO - click create new button
+2025-03-02 02:21:48,150 - CPB Stage -INFO - click import checkbox
+2025-03-02 02:21:48,195 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 02:21:48,224 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 02:22:23,299 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 02:22:23,441 - CPB Stage -INFO - Test PASSED
+2025-03-02 02:22:24,609 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 02:22:28,673 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 02:24:18,520 - CPB Stage -INFO - open stage site
+2025-03-02 02:24:18,573 - CPB Stage -INFO - switch to iFrame
+2025-03-02 02:25:04,292 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-02 02:25:04,459 - CPB Stage -INFO - Test PASSED
+2025-03-02 02:25:05,719 - CPB Stage -INFO - click delete button- 1NataliaLeleko-Copy
+2025-03-02 02:25:09,803 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko-Copy
+2025-03-02 02:26:04,938 - CPB Stage -INFO - open stage site
+2025-03-02 02:26:04,983 - CPB Stage -INFO - switch to iFrame
+2025-03-02 02:26:05,100 - CPB Stage -INFO - click create new button
+2025-03-02 02:26:05,135 - CPB Stage -INFO - click import checkbox
+2025-03-02 02:26:05,179 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 02:26:05,205 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 02:26:34,705 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 02:26:34,852 - CPB Stage -INFO - Test PASSED
+2025-03-02 02:26:36,014 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 02:26:40,085 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 02:27:56,843 - CPB Stage -INFO - open stage site
+2025-03-02 02:27:56,889 - CPB Stage -INFO - switch to iFrame
+2025-03-02 02:28:46,161 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-02 02:28:46,303 - CPB Stage -INFO - Test PASSED
+2025-03-02 02:28:47,484 - CPB Stage -INFO - click delete button- 1NataliaLeleko-Copy
+2025-03-02 02:28:49,551 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko-Copy
+2025-03-02 02:29:41,999 - CPB Stage -INFO - open stage site
+2025-03-02 02:29:42,045 - CPB Stage -INFO - switch to iFrame
+2025-03-02 02:29:42,158 - CPB Stage -INFO - click create new button
+2025-03-02 02:29:42,195 - CPB Stage -INFO - click import checkbox
+2025-03-02 02:29:42,242 - CPB Stage -INFO - input JsonFile into Field
+2025-03-02 02:29:42,274 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-02 02:30:13,149 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-02 02:30:13,315 - CPB Stage -INFO - Test PASSED
+2025-03-02 02:30:14,640 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-02 02:30:16,741 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-02 17:49:25,041 - CPB Stage -INFO - open stage site
+2025-03-02 17:49:25,099 - CPB Stage -INFO - switch to iFrame
+2025-03-02 17:49:29,510 - CPB Stage -INFO - click Edit
+2025-03-02 17:49:31,639 - CPB Stage -INFO - click Admin Mode On
+2025-03-02 17:49:34,319 - CPB Stage -INFO - Test PASSED
+2025-03-02 17:49:34,319 - CPB Stage -INFO - click Reorder On
+2025-03-02 17:49:34,453 - CPB Stage -INFO - Test PASSED
+2025-03-02 17:49:34,453 - CPB Stage -INFO - click Reorder Off
+2025-03-03 13:07:27,259 - CPB Stage -INFO - open stage site
+2025-03-03 13:07:27,322 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:07:31,272 - CPB Stage -INFO - click Edit
+2025-03-03 13:07:32,873 - CPB Stage -INFO - click Admin Mode
+2025-03-03 13:07:36,525 - CPB Stage -INFO - click on New Custom Option
+2025-03-03 13:07:36,818 - CPB Stage -INFO - Assert Failed- 'RANDOM TEXT TO FAIL' NOT FOUND on the page. expected [true] but found [false]
+2025-03-03 13:07:40,827 - CPB Stage -INFO - open stage site
+2025-03-03 13:07:40,860 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:08:39,969 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-03 13:08:40,113 - CPB Stage -INFO - Test PASSED
+2025-03-03 13:08:41,347 - CPB Stage -INFO - click delete button- 1NataliaLeleko-Copy
+2025-03-03 13:08:43,394 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko-Copy
+2025-03-03 13:08:47,164 - CPB Stage -INFO - open stage site
+2025-03-03 13:08:47,186 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:08:47,284 - CPB Stage -INFO - click create new button
+2025-03-03 13:08:47,314 - CPB Stage -INFO - click import checkbox
+2025-03-03 13:08:47,359 - CPB Stage -INFO - input JsonFile into Field
+2025-03-03 13:08:47,393 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-03 13:09:19,803 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-03 13:09:19,942 - CPB Stage -INFO - Test PASSED
+2025-03-03 13:09:21,143 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-03 13:09:23,260 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-03 13:09:46,326 - CPB Stage -INFO - open stage site
+2025-03-03 13:09:46,365 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:09:46,486 - CPB Stage -INFO - click live preview button
+2025-03-03 13:09:48,349 - CPB Stage -INFO - click password field
+2025-03-03 13:09:48,367 - CPB Stage -INFO - Test PASSED
+2025-03-03 13:10:05,066 - CPB Stage -INFO - open stage site
+2025-03-03 13:10:05,116 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:10:10,208 - CPB Stage -INFO - click edit button
+2025-03-03 13:10:15,944 - CPB Stage -INFO - click color thumbnail
+2025-03-03 13:10:19,014 - CPB Stage -INFO - click add to Cart
+2025-03-03 13:10:24,360 - CPB Stage -INFO - open stage site
+2025-03-03 13:10:24,390 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:10:28,768 - CPB Stage -INFO - click Edit
+2025-03-03 13:10:30,379 - CPB Stage -INFO - click Admin Mode On
+2025-03-03 13:10:34,085 - CPB Stage -INFO - click New Custom Option
+2025-03-03 13:10:34,732 - CPB Stage -INFO - click Title Field
+2025-03-03 13:10:34,758 - CPB Stage -INFO - click Custom Option Type
+2025-03-03 13:10:34,981 - CPB Stage -INFO - click Save Custom Option Button
+2025-03-03 13:10:35,755 - CPB Stage -INFO - 2nd click Save Custom Option Button
+2025-03-03 13:10:35,900 - CPB Stage -INFO - click Save Product Button
+2025-03-03 13:10:38,321 - CPB Stage -INFO - open stage site
+2025-03-03 13:10:40,855 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:10:44,722 - CPB Stage -INFO - click Edit
+2025-03-03 13:10:46,324 - CPB Stage -INFO - click Admin Mode
+2025-03-03 13:10:49,464 - CPB Stage -INFO - click on New Custom Option
+2025-03-03 13:10:51,535 - CPB Stage -INFO - Test PASSED
+2025-03-03 13:10:54,911 - CPB Stage -INFO - open stage site
+2025-03-03 13:10:54,936 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:10:58,282 - CPB Stage -INFO - click Edit
+2025-03-03 13:10:59,886 - CPB Stage -INFO - click Admin Mode On
+2025-03-03 13:11:03,038 - CPB Stage -INFO - Test PASSED
+2025-03-03 13:11:03,038 - CPB Stage -INFO - click Reorder On
+2025-03-03 13:11:03,161 - CPB Stage -INFO - Test PASSED
+2025-03-03 13:11:03,162 - CPB Stage -INFO - click Reorder Off
+2025-03-03 13:11:07,038 - CPB Stage -INFO - open stage site
+2025-03-03 13:11:07,067 - CPB Stage -INFO - switch to iFrame
+2025-03-03 13:11:24,145 - CPB Stage -INFO - click edit button
+2025-03-03 13:11:25,751 - CPB Stage -INFO - click settings button
+2025-03-03 13:11:26,288 - CPB Stage -INFO - click import export block
+2025-03-03 13:11:26,314 - CPB Stage -INFO - click export radio button
+2025-03-03 13:11:28,347 - CPB Stage -INFO - click download button
+2025-03-03 13:11:28,398 - CPB Stage -INFO - click apply button
+2025-03-04 00:20:09,525 - CPB Stage -INFO - open stage site
+2025-03-04 00:20:09,585 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:20:14,517 - CPB Stage -INFO - click Edit
+2025-03-04 00:20:16,128 - CPB Stage -INFO - click Admin Mode
+2025-03-04 00:20:19,253 - CPB Stage -INFO - click on New Custom Option
+2025-03-04 00:20:19,536 - CPB Stage -INFO - Assert Failed- 'RANDOM TEXT TO FAIL' NOT FOUND on the page. expected [true] but found [false]
+2025-03-04 00:20:23,382 - CPB Stage -INFO - open stage site
+2025-03-04 00:20:23,409 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:21:13,018 - CPB Stage -INFO - click Clone button- 1NataliaLeleko
+2025-03-04 00:21:13,169 - CPB Stage -INFO - Test PASSED
+2025-03-04 00:21:14,455 - CPB Stage -INFO - click delete button- 1NataliaLeleko-Copy
+2025-03-04 00:21:16,499 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko-Copy
+2025-03-04 00:21:20,439 - CPB Stage -INFO - open stage site
+2025-03-04 00:21:20,460 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:21:20,560 - CPB Stage -INFO - click create new button
+2025-03-04 00:21:20,593 - CPB Stage -INFO - click import checkbox
+2025-03-04 00:21:20,643 - CPB Stage -INFO - input JsonFile into Field
+2025-03-04 00:21:20,677 - CPB Stage -INFO - Click JsonFile Fill Button
+2025-03-04 00:21:57,759 - CPB Stage -INFO - Click JsonCreate Button
+2025-03-04 00:21:57,912 - CPB Stage -INFO - Test PASSED
+2025-03-04 00:21:59,136 - CPB Stage -INFO - click delete button- 1NataliaLeleko_json_import
+2025-03-04 00:22:01,188 - CPB Stage -INFO - click Yes to delete button- 1NataliaLeleko_json_import
+2025-03-04 00:22:04,885 - CPB Stage -INFO - open stage site
+2025-03-04 00:22:04,911 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:22:08,131 - CPB Stage -INFO - click live preview button
+2025-03-04 00:22:10,000 - CPB Stage -INFO - click password field
+2025-03-04 00:22:10,015 - CPB Stage -INFO - Test PASSED
+2025-03-04 00:22:13,781 - CPB Stage -INFO - open stage site
+2025-03-04 00:22:13,809 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:22:30,943 - CPB Stage -INFO - click edit button
+2025-03-04 00:22:35,208 - CPB Stage -INFO - click color thumbnail
+2025-03-04 00:22:38,273 - CPB Stage -INFO - click add to Cart
+2025-03-04 00:22:41,723 - CPB Stage -INFO - open stage site
+2025-03-04 00:22:41,756 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:22:45,110 - CPB Stage -INFO - click Edit
+2025-03-04 00:22:46,721 - CPB Stage -INFO - click Admin Mode On
+2025-03-04 00:22:49,378 - CPB Stage -INFO - click New Custom Option
+2025-03-04 00:22:50,026 - CPB Stage -INFO - click Title Field
+2025-03-04 00:22:50,082 - CPB Stage -INFO - click Custom Option Type
+2025-03-04 00:22:50,283 - CPB Stage -INFO - click Save Custom Option Button
+2025-03-04 00:22:51,045 - CPB Stage -INFO - 2nd click Save Custom Option Button
+2025-03-04 00:22:51,216 - CPB Stage -INFO - click Save Product Button
+2025-03-04 00:22:54,767 - CPB Stage -INFO - open stage site
+2025-03-04 00:22:54,794 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:22:57,649 - CPB Stage -INFO - click Edit
+2025-03-04 00:22:58,753 - CPB Stage -INFO - click Admin Mode
+2025-03-04 00:23:01,898 - CPB Stage -INFO - click on New Custom Option
+2025-03-04 00:23:03,964 - CPB Stage -INFO - Test PASSED
+2025-03-04 00:23:07,468 - CPB Stage -INFO - open stage site
+2025-03-04 00:23:07,494 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:23:10,864 - CPB Stage -INFO - click Edit
+2025-03-04 00:23:12,474 - CPB Stage -INFO - click Admin Mode On
+2025-03-04 00:23:15,219 - CPB Stage -INFO - Test PASSED
+2025-03-04 00:23:15,219 - CPB Stage -INFO - click Reorder On
+2025-03-04 00:23:15,341 - CPB Stage -INFO - Test PASSED
+2025-03-04 00:23:15,341 - CPB Stage -INFO - click Reorder Off
+2025-03-04 00:23:18,951 - CPB Stage -INFO - open stage site
+2025-03-04 00:23:18,981 - CPB Stage -INFO - switch to iFrame
+2025-03-04 00:23:35,651 - CPB Stage -INFO - click edit button
+2025-03-04 00:23:37,247 - CPB Stage -INFO - click settings button
+2025-03-04 00:23:37,786 - CPB Stage -INFO - click import export block
+2025-03-04 00:23:37,815 - CPB Stage -INFO - click export radio button
+2025-03-04 00:23:39,867 - CPB Stage -INFO - click download button
+2025-03-04 00:23:39,933 - CPB Stage -INFO - click apply button
