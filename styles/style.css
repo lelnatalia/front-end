@@ -98,10 +98,17 @@ h1 {
  }
  
  .logo {
-   font-family: "Sansita Swashed", serif; /* Sets the font of the logo to 'Sansita Swashed' with serif fallback */
    font-size: 20px; /* Sets the font size of the logo to 20px */
  }
- 
+ .logo a{
+  text-decoration: none;
+  font-family: "Sansita Swashed", serif;
+  font-size: 20px;
+  color: #000000;
+}
+.logo a:hover {
+  text-decoration: underline; /* Adds underline to anchor tags inside 'nav' when hovered */
+}
  .btn {
    text-decoration: none; /* Removes underline from the button */
    color: #000000; /* Sets the text color of the button to black */
@@ -193,11 +200,21 @@ h1 {
    border-radius: 35px; /* Rounds the corners of the list item */
    margin: 0 5px 0 5px; /* Adds 5px margin on left and right sides of each list item */
  }
- 
+
+ .card li:hover {
+  box-shadow: 3px 3px #999999; /* Changes the box-shadow to a smaller shadow when clicked */
+  
+}
+
  .card li p {
    padding: 60px 0; /* Adds 60px padding to the top and bottom of the <p> inside the list item */
  }
  
+ .card li a {
+  text-decoration: none;
+  color: #000000;
+}
+
  .container1 {
    flex-direction: column; /* Aligns children vertically in a column */
    text-align: left; /* Aligns text to the left */
@@ -235,24 +252,32 @@ h1 {
    text-align: center; /* Centers the text horizontally */
  }
  
+ #contactForm{
+  margin: 20px 0px;
+ }
+ .form-field span{
+  display: block;
+ }
  /* Form fields */
  .form-field input {
-   margin: 20px 5px; /* Adds margin of 20px on top and bottom and 5px on left and right */
+   margin: 10px 5px; /* Adds margin of 20px on top and bottom and 5px on left and right */
    background: grey; /* Sets the background color of the input fields to grey */
    border-color: grey; /* Sets the border color of the input fields to grey */
-   color: rgb(79, 75, 75); /* Sets the text color of the input fields to a dark grey */
+   color: rgb(52, 52, 52); /* Sets the text color of the input fields to a dark grey */
    width: 100%; /* Makes the input fields take 100% width of the parent container */
    max-width: 195px; /* Limits the width of the input fields to 195px */
  }
  
  .form-field textarea {
+   margin: 10px 0px;
    background: grey; /* Sets the background color of the textarea to grey */
    border-color: grey; /* Sets the border color of the textarea to grey */
-   color: rgb(79, 75, 75); /* Sets the text color of the textarea to a dark grey */
+   color: rgb(52, 52, 52); /* Sets the text color of the textarea to a dark grey */
    width: 100%; /* Makes the textarea take 100% width of the parent container */
    max-width: 400px; /* Limits the width of the textarea to 400px */
  }
- 
+ .error { color: red; font-size: 12px; }
+ .highlight { border: 2px solid blue; }
  footer div {
    display: flex; /* Applies flexbox to the footer */
    justify-content: space-between; /* Distributes items with space between them */
@@ -429,10 +454,10 @@ h1 {
   }
 
   .form-field input {
-    margin: 20px 0px; /* Adds 20px margin to the top and bottom of the input field */
+    margin: 10px 0px; /* Adds 20px margin to the top and bottom of the input field */
     background: grey; /* Sets the background color of the input field to grey */
     border-color: grey; /* Sets the border color of the input field to grey */
-    color: rgb(79, 75, 75); /* Sets the text color of the input field to a dark grey */
+    color: rgb(52, 52, 52); /* Sets the text color of the input field to a dark grey */
     width: 100%; /* Makes the input field take 100% width of the container */
     max-width: 392px; /* Sets the maximum width of the input field to 392px */
   }
