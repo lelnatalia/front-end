@@ -42,8 +42,8 @@ h1 {
  /* DRY Code: Do not repeat yourself */
  
  body {
-   font-family: "Sansita Swashed", serif; /* Sets the body text font to 'Sansita Swashed' with a serif fallback */
-   color: #000000; /* Sets the text color of the body to black */
+   font-family: "Sansita Swashed", serif; 
+   color: #000000;
  }
  
  main {
@@ -98,7 +98,9 @@ h1 {
  }
  
  .logo {
-   font-size: 20px; /* Sets the font size of the logo to 20px */
+   font-size: 20px;
+   font-family: "Sansita Swashed", serif; 
+   color: #000000;
  }
  .logo a{
   text-decoration: none;
@@ -174,6 +176,15 @@ h1 {
    text-align: center; /* Centers the text inside the slogan element */
    color: #0f1010; /* Sets the text color to a very dark grey */
  }
+ .slogan {
+  padding: 60px 100px; 
+  font-weight: 400; 
+  font-size: 55px; 
+  line-height: 60px; 
+  text-align: center; 
+  font-family: "Sansita Swashed", serif; 
+  color: #000000;
+}
  
  /* Quality is not an act, it is a habit. */
  #sub-slogan {

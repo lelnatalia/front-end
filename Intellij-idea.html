@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="working-scripts.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="preconnect"href="https://fonts.googleleapis.com">
+    <link rel="preconnect"href="https:///fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css"> <!-- main .css file  -->
     <title>QA Test Automation In IntelliJ IDEA - Selenium</title>
     <style>
-        body {
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 80vh;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #FFFFFF;
-        }
-        .container {
-            display: flex;
-            flex-direction: row;
-            height: 75vh;
         }
         .paragraph {
             display: inline-block;
@@ -162,7 +163,7 @@ th {background: #336699; color: #FFFFFF; text-align: left;}
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <script>
       $(document).ready(function() {
-        $('#editor').load('/IntelliJ/CPB15.java.html');
+      //  $('#editor').load('/IntelliJ/CPB15.java.html');
     
         $('#navigation a.loader').click(function(e) {
           e.preventDefault();
@@ -181,13 +182,13 @@ th {background: #336699; color: #FFFFFF; text-align: left;}
             <span></span>
         </div>    <!--hamburger END --> 
             <div class="mobile-menu-list" id="mobile-menu-list-id"> <!--START hidden mobile menu list shown on hamburger click-->
-                <a href="#">About me</a>
-                <a href="#screen2">My Work</a>
-                <a href="#screen3">Work process</a>
+                <a href="./aboutme.html">About me</a>
+                <a href="./index.html#screen2">My Work</a>
+                <a href="./index.html#screen3">Work process</a>
             </div>   <!--END hidden mobile menu list showm on hamburger click-->
 <!--hidden mobile menu END--></div>
             
-            <span class="nav"><a href="./index.html">About me</a></span>
+            <span class="nav"><a href="./aboutme.html">About me</a></span>
             <span class="nav"><a href="./index.html#screen2">My Work</a></span>
             <span class="nav"><a href="./index.html#screen3">Work process</a></span>
         <span><a href="./index.html#screen4" class="btn clik">Contact Me</a></span>
@@ -247,7 +248,7 @@ th {background: #336699; color: #FFFFFF; text-align: left;}
                     </ul>
                 </li>
 
-                <li>
+                <li class="expanded">
                     <div class="menu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>src</div>
                     <ul class="submenu">
                         <li>
@@ -257,7 +258,7 @@ th {background: #336699; color: #FFFFFF; text-align: left;}
                                 <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/pageObjects/CustomProduct.java.html">CustomProduct</a></li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="expanded">
                             <div class="submenu-item" onclick="toggleMenu(event)"><span class="arrow">&gt;</span> <span class="icon">📂</span>testCases</div>
                             <ul class="subsubmenu">
                                 <li><span class="icon">©</span><a class="loader" href="./IntelliJ/src/testCases/BaseClass.java.html">BaseClass</a></li>
