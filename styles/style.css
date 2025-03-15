@@ -378,7 +378,7 @@ h1 {
   }
 
   .card li p {
-    padding: 20px 0; /* Adds 20px padding to the top and bottom of the paragraph inside list items */
+    padding: 20px; /* Adds 20px padding to the top and bottom of the paragraph inside list items */
   }
 
   .footer1280 {
