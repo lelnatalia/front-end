@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+
+        <!--Included JS file extrnally-->
+        <script src="scripts.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Google Font-->
+         <link rel="preconnect"href="https://fonts.googleleapis.com">
+         <link rel="preconnect"href="https:///fonts.gstatic.com" crossorigin> 
+         <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+<!-- Google font-->
+
+
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css"> <!-- main .css file  -->
+
+        <!-- This is page title shown at the top of browser window .. -->
+        <title>NATALIA Test Plan - Test Cases</title>
+        <style>
+            #plan {
+                font-family: Arial, sans-serif;
+                padding: 20px 120px; /* Adds padding to the element with 60px top/bottom and 120px left/right */
+                padding-bottom: 60px;
+                width: auto; /* Automatically adjusts the width of the element */
+
+               /* background-color: #f4f4f4;*/
+            }
+            ul {
+                list-style-type: disc;
+                margin-left: 20px;
+            }
+            ol {
+                list-style-type: decimal;
+                margin-left: 20px;
+            }
+            section {
+                background-color: white;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+    </head>  
+
+    <body> 
+        <header>  
+                <span class="logo" id="logo"><a href="./index.html">NATALIA</a></span><!--LOGO --> 
+ <!--START hidden mobile menu -->  <div id ="dropbtn" class="dropdown dropbtn">           
+                <div class="hamburger" id = "hamburger-id"><!--hamburger START --> 
+                    <span></span><!--hamburger line -->
+                    <span></span><!--hamburger line -->
+                    <span></span><!--hamburger line -->
+                </div>    <!--hamburger END --> 
+                    <div class="mobile-menu-list" id="mobile-menu-list-id"> <!--START hidden mobile menu list shown on hamburger click-->
+                        <a href="./aboutme.html">About me</a><!-- mobile menu list item-->
+                        <a href="./index.html#screen2">My Work</a><!-- mobile menu list item-->
+                        <a href="./index.html#screen3">Work process</a><!-- mobile menu list item-->
+                    </div>   <!--END hidden mobile menu list showm on hamburger click-->
+    <!--hidden mobile menu END--></div>
+                    
+                    <span class="nav"><a href="./aboutme.html">About me</a></span><!-- DESKTOP menu list item-->
+                    <span class="nav"><a href="./index.html#screen2">My Work</a></span><!-- DESKTOP menu list item-->
+                    <span class="nav"><a href="./index.html#screen3">Work process</a></span><!-- DESKTOP menu list item-->
+                <span><a href="./index.html#screen4" class="btn clik">Contact Me</a></span><!-- CONTACT ME button-->
+         </header>
+
+        <main>
+            <div id="plan">
+                <p class="slogan">QA Test Plan</p>
+                <section>
+                    <h2>1. Plan Introduction</h2>
+                    <p>This test plan defines the testing approach, scope, resources, schedule, and deliverables for Natalia’s website: <a href="https://leleko.net/natalia/" target="_blank">https://leleko.net/natalia/</a>. The objective is to ensure the website meets functional, usability, performance, and security requirements.</p>
+                </section>
+            
+                <section>
+                    <h2>2. Scope</h2>
+                    <p>The scope of testing includes:</p>
+                    <ul>
+                        <li>Functional testing of all pages, forms, and interactive elements.</li>
+                        <li>UI/UX testing for responsiveness across different screen sizes and browsers.</li>
+                        <li>Performance testing to ensure page load times meet industry standards.</li>
+                        <li>Security testing to identify potential vulnerabilities.</li>
+                    </ul>
+                </section>
+            
+                <section>
+                    <h2>3. Test Approach</h2>
+                    <p>The following types of testing will be performed:</p>
+                    <ul>
+                        <li><strong>Manual Testing:</strong> Functional testing, UI/UX testing, exploratory testing.</li>
+                        <li><strong>Automated Testing:</strong> Regression testing using Selenium.</li>
+                        <li><strong>Performance Testing:</strong> Load testing with JMeter.</li>
+                        <li><strong>Security Testing:</strong> Basic penetration testing.</li>
+                    </ul>
+                </section>
+            
+                <section>
+                    <h2>4. Resources</h2>
+                    <h3>Test Team:</h3>
+                    <ul>
+                        <li>1 Manual QA Engineer</li>
+                        <li>1 Automation QA Engineer</li>
+                        <li>1 Performance Tester</li>
+                    </ul>
+            
+                    <h3>Tools:</h3>
+                    <ul>
+                        <li>Selenium for automation testing</li>
+                        <li>Postman for API testing</li>
+                        <li>JMeter for performance testing</li>
+                        <li>BrowserStack for cross-browser testing</li>
+                    </ul>
+                </section>
+            
+                <section>
+                    <h2>5. Test Schedule</h2>
+                    <ol>
+                        <li><strong>Phase 1:</strong> Requirement Analysis - 2 Days</li>
+                        <li><strong>Phase 2:</strong> Test Case Design - 3 Days</li>
+                        <li><strong>Phase 3:</strong> Test Execution (Manual & Automated) - 5 Days</li>
+                        <li><strong>Phase 4:</strong> Bug Fixing & Re-Testing - 3 Days</li>
+                        <li><strong>Phase 5:</strong> Final Testing & Sign-Off - 2 Days</li>
+                    </ol>
+                </section>
+            
+                <section>
+                    <h2>6. Deliverables</h2>
+                    <p>The testing process will produce the following deliverables:</p>
+                    <ul>
+                        <li>Detailed Test Plan Document</li>
+                        <li>Comprehensive Test Cases Document</li>
+                        <li>Defect Reports</li>
+                        <li>Test Execution Report</li>
+                        <li>Final QA Sign-Off Report</li>
+                    </ul>
+                </section>
+            </div>     
+            <div class="screen1280"><a href="#screen4" class="btn clik">View Zephyr Scale</a></div>
+            <div id="screen2" class="screen1280">
+                <p id="cases-header" class="slogan">Test Cases</p>
+                <p>&nbsp;</p>
+                <div><!-- TEST CASES-->
+                    <iframe width="100%" height="600px" frameBorder="1" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTlKwL_SXHqvdtMsMQyWZjReyqf08qqD0vNUMVi9Q5RqKnRYLpzTKbV3DBOo-icRg1-0Q4eOjwrDXf0/pubhtml?widget=true&amp;headers=false&amp;chrome=false&amp;headers=false&amp;rm=full"></iframe>
+                </div><!--END OF TEST CASES--->
+                
+            </div>
+            <div class="screen1280"><a href="#screen4" class="btn clik">View Zephyr Scale</a></div>
+    <footer class="footer1280"> <!-- FOOTER element START-->
+                <div class="footer">
+                        NATALIA
+                    
+                    <div class="social">
+                      <ul>
+                          <li><a href="https://www.facebook.com/nnleleko">Facebook</a></li> 
+                          <li><a href="https://www.instagram.com/lelnatalia">Instagram</a></li>
+                          <li><a href="https://t.me/Lelnatalia">Telegram</a></li>
+                      </ul>
+                    </div>
+                </div>
+    </footer>   
+                </div>
+     
+        </main>
+    </body> 
+</html>
