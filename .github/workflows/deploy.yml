@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # Change to your main branch if needed
+      - natalia-pc
+      - natalia-mac
 
 jobs:
   ftp-deploy:
