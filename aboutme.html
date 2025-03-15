@@ -2,31 +2,17 @@
 <html lang="en">
     <head> 
         <meta charset="UTF-8">
-
-        <!--Included JS file extrnally-->
-        <script src="scripts.js"></script>
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--Google Font-->
          <link rel="preconnect"href="https://fonts.googleleapis.com">
          <link rel="preconnect"href="https:///fonts.gstatic.com" crossorigin> 
          <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
 <!-- Google font-->
-
-
-        <link rel="stylesheet" href="styles/reset.css">
-        <link rel="stylesheet" href="styles/style.css"> <!-- main .css file  -->
-
         <!-- This is page title shown at the top of browser window .. -->
         <title>NATALIA - About Me</title>
         <style>
-            #plan {
-                font-family: Arial, sans-serif;
-                padding: 20px 120px; /* Adds padding to the element with 60px top/bottom and 120px left/right */
-                padding-bottom: 60px;
-                width: auto; /* Automatically adjusts the width of the element */
-
-               /* background-color: #f4f4f4;*/
+            #frame{
+                display: flex; justify-content: center;
             }
             ul {
                 list-style-type: disc;
@@ -43,54 +29,28 @@
                 border-radius: 8px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
+            .slogan {
+                padding: 60px 100px; 
+                font-weight: 400; 
+                font-size: 55px; 
+                line-height: 60px; 
+                text-align: center; 
+                font-family: "Sansita Swashed", serif; 
+                color: #000000;
+            }
         </style>
     </head>  
 
     <body> 
-        <header>  
-                <span class="logo" id="logo"><a href="./index.html">NATALIA</a></span><!--LOGO --> 
- <!--START hidden mobile menu -->  <div id ="dropbtn" class="dropdown dropbtn">           
-                <div class="hamburger" id = "hamburger-id"><!--hamburger START --> 
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>    <!--hamburger END --> 
-                    <div class="mobile-menu-list" id="mobile-menu-list-id"> <!--START hidden mobile menu list shown on hamburger click-->
-                        <a href="./aboutme.html">About me</a>
-                        <a href="./index.html#screen2">My Work</a>
-                        <a href="./index.html#screen3">Work process</a>
-                    </div>  
-    <!--hidden mobile menu END--></div>
-                    
-                    <span class="nav"><a href="./aboutme.html">About me</a></span>
-                    <span class="nav"><a href="./index.html#screen2">My Work</a></span>
-                    <span class="nav"><a href="./index.html#screen3">Work process</a></span>
-                <span><a href="./index.html#screen4" class="btn clik">Contact Me</a></span>
-         </header>
-
         <main>
-            <div id="screen2" class="screen1280">
-                <p id="cases-header" class="slogan">About Me</p>
-                <div>
-                    <iframe width="840px" height="940px" scrolling="no" frameBorder="0" src="https://docs.google.com/document/d/e/2PACX-1vTHQbcSvRfE-umHq_tnTJfZH1U-f8vmRrfHjQuOxHYjXWEq5EXoDmlPqrfDvn8QDrb8KeERKX2MM19F/pub?embedded=true"></iframe>
+            <div>
+                <p class="slogan">About Me</p>
+                <div id="frame">
+                    <iframe width="60%" height="1000px" scrolling="no" frameBorder="0" src="https://docs.google.com/document/d/e/2PACX-1vTHQbcSvRfE-umHq_tnTJfZH1U-f8vmRrfHjQuOxHYjXWEq5EXoDmlPqrfDvn8QDrb8KeERKX2MM19F/pub?embedded=true"></iframe>
                 </div>
                 
-            </div>
-    <footer class="footer1280"> <!-- FOOTER element START-->
-                <div class="footer">
-                        NATALIA
-                    
-                    <div class="social">
-                      <ul>
-                          <li><a href="https://www.facebook.com/nnleleko">Facebook</a></li> 
-                          <li><a href="https://www.instagram.com/lelnatalia">Instagram</a></li>
-                          <li><a href="https://t.me/Lelnatalia">Telegram</a></li>
-                      </ul>
-                    </div>
+            </div>  
                 </div>
-    </footer>   
-                </div>
-     
         </main>
     </body> 
 </html>
