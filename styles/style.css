@@ -57,7 +57,7 @@ h1 {
    flex-direction: row; /* Aligns child elements in a horizontal row */
    justify-content: space-between; /* Distributes child elements with space between them */
    align-items: center; /* Vertically aligns child elements to the center */
-   padding: 40px 120px; /* Adds padding inside the header with 60px top/bottom and 120px left/right */
+   padding: 20px 120px; /* Adds padding inside the header with 60px top/bottom and 120px left/right */
    position: sticky; /* makes the header block to stay at the top when scrolling */
    top: 0;/* makes the header block stay at the top position 0 */
  }
@@ -155,7 +155,8 @@ h1 {
  
  .screen1280 {
    text-align: center; /* Centers the text inside the element */
-   padding: 60px 120px; /* Adds padding to the element with 60px top/bottom and 120px left/right */
+   padding: 20px 120px; /* Adds padding to the element with 60px top/bottom and 120px left/right */
+   padding-bottom: 60px;
    width: auto; /* Automatically adjusts the width of the element */
    min-height: 100px; /* Ensures the element has a minimum height of 100px */
  }
@@ -207,7 +208,9 @@ h1 {
 }
 
  .card li p {
-   padding: 60px 0; /* Adds 60px padding to the top and bottom of the <p> inside the list item */
+   padding: 10px ; /* Adds 60px padding to the top and bottom of the <p> inside the list item */
+   display: flex; /* Applies flexbox to the card to arrange items */
+   flex-direction: column;
  }
  
  .card li a {
