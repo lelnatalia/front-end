@@ -43,7 +43,23 @@
                 border-radius: 8px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             }
+            .embedPDF {
+            display: none;
+            padding-left: 20px;
+            width: 100%;
+            }
+            .expanded .embedPDF {
+            display: block;
+             }
         </style>
+         <script>
+            function togglePDF(event) {
+                event.stopPropagation();
+                const item = event.currentTarget.parentElement;
+                item.classList.toggle('expanded');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
     </head>  
 
     <body> 
@@ -67,12 +83,11 @@
                     <span class="nav"><a href="./index.html#screen3">Work process</a></span><!-- DESKTOP menu list item-->
                 <span><a href="./index.html#screen4" class="btn clik">Contact Me</a></span><!-- CONTACT ME button-->
          </header>
-
+         <div class="screen1280"></div>
         <main>
             <div id="plan">
-                <p class="slogan">QA Test Plan</p>
                 <section>
-                    <h2>1. Plan Introduction</h2>
+                    <h2>1. QA Test Plan Introduction</h2>
                     <p>This test plan defines the testing approach, scope, resources, schedule, and deliverables for Natalia’s website: <a href="https://leleko.net/natalia/" target="_blank">https://leleko.net/natalia/</a>. The objective is to ensure the website meets functional, usability, performance, and security requirements.</p>
                 </section>
             
@@ -139,7 +154,6 @@
                     </ul>
                 </section>
             </div>     
-            <div class="screen1280"><a href="#screen4" class="btn clik">View Zephyr Scale</a></div>
             <div id="screen2" class="screen1280">
                 <p id="cases-header" class="slogan">Test Cases</p>
                 <p>&nbsp;</p>
@@ -148,11 +162,39 @@
                 </div><!--END OF TEST CASES--->
                 
             </div>
-            <div class="screen1280"><a href="#screen4" class="btn clik">View Zephyr Scale</a></div>
+            <div class="screen1280">
+                <div onclick="togglePDF(event)" ><a class="btn clik"> "HEADER section"  Test Cases on Jira</a></div>
+            <div class="embedPDF"><embed src="./zephyr-screenshots/Header-T1-T10-Zephyr.pdf" width="100%" height="1000px" /></div>
+             </div>
+             <div class="screen1280">
+                <div onclick="togglePDF(event)" ><a class="btn clik"> "BANNER section"  Test Case on Jira</a></div>
+            <div class="embedPDF"><embed src="./zephyr-screenshots/Banner-T11-T14-Zephyr.pdf" width="100%" height="1000px" /></div>
+             </div>
+             <div class="screen1280">
+                <div onclick="togglePDF(event)" ><a class="btn clik">"My Work section" Test Cases on Jira</a></div>
+            <div class="embedPDF"><embed src="./zephyr-screenshots/My_work-T15-T22-Zephyr.pdf" width="100%" height="1000px" /></div>
+             </div>
+             <div class="screen1280">
+                <div onclick="togglePDF(event)" ><a class="btn clik">Work Process section Test Cases on Jira</a></div>
+            <div class="embedPDF"><embed src="./zephyr-screenshots/Work_process-T23-T24-Zephyr.pdf" width="100%" height="1000px" /></div>
+             </div>
+             <div class="screen1280">
+                <div onclick="togglePDF(event)" ><a class="btn clik">Get in Touch section Test Cases on Jira</a></div>
+            <div class="embedPDF"><embed src="./zephyr-screenshots/Get_in_touch-T25-T49-Zephyr.pdf" width="100%" height="1000px" /></div>
+             </div>
+             <div class="screen1280">
+                <div onclick="togglePDF(event)" ><a class="btn clik"> "FOOTER  section"  Test Cases on Jira</a></div>
+            <div class="embedPDF"><embed src="./zephyr-screenshots/Footer-T50-T57-Zephyr.pdf" width="100%" height="1000px" /></div>
+             </div>
+             <div class="screen1280">
+                <div onclick="togglePDF(event)" ><a class="btn clik"> "OTHER  section"  Test Cases on Jira</a></div>
+            <div class="embedPDF"><embed src="./zephyr-screenshots/Other-T58-T59-Zephyr.pdf" width="100%" height="1000px" /></div>
+             </div>
+            <div class="screen1280"></div>
     <footer class="footer1280"> <!-- FOOTER element START-->
                 <div class="footer">
                         NATALIA
-                    
+                        
                     <div class="social">
                       <ul>
                           <li><a href="https://www.facebook.com/nnleleko">Facebook</a></li> 
