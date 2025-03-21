@@ -30,11 +30,9 @@
             }
             ul {
                 list-style-type: disc;
-                margin-left: 20px;
             }
             ol {
                 list-style-type: decimal;
-                margin-left: 20px;
             }
             section {
                 background-color: white;
@@ -45,11 +43,25 @@
             }
             .embedPDF {
             display: none;
-            padding-left: 20px;
+           /* padding-left: 20px;*/
             width: 100%;
             }
             .expanded .embedPDF {
             display: block;
+             }
+
+             @media (max-width: 600px) {
+                .embedPDF iframe{
+             height: 500px;
+            }
+            section {
+                background-color: white;
+                padding: 5px;
+
+            }
+            #plan {
+                padding: 20px 10px; /* Adds padding to the element with 20px  */
+            }   
              }
         </style>
          <script>
@@ -164,31 +176,31 @@
             </div>
             <div class="screen1280">
                 <div onclick="togglePDF(event)" ><a class="btn clik"> "HEADER section"  Test Cases on Jira</a></div>
-            <div class="embedPDF"><embed src="./zephyr-screenshots/Header-T1-T10-Zephyr.pdf" width="100%" height="1000px" /></div>
+            <div class="embedPDF"><iframe src="https://drive.google.com/file/d/1CPzF7gyA9wWJJM24MxVvo94LDX0_kILx/preview" width="100%" height="1000px" allow="autoplay"></iframe></div>
              </div>
              <div class="screen1280">
                 <div onclick="togglePDF(event)" ><a class="btn clik"> "BANNER section"  Test Case on Jira</a></div>
-            <div class="embedPDF"><embed src="./zephyr-screenshots/Banner-T11-T14-Zephyr.pdf" width="100%" height="1000px" /></div>
+            <div class="embedPDF"><iframe src="https://drive.google.com/file/d/1wp3k-uwCCH0i31UeCryWMSDyElqYKZMn/preview" width="100%" height="1000px" allow="autoplay"></iframe></div>
              </div>
              <div class="screen1280">
                 <div onclick="togglePDF(event)" ><a class="btn clik">"My Work section" Test Cases on Jira</a></div>
-            <div class="embedPDF"><embed src="./zephyr-screenshots/My_work-T15-T22-Zephyr.pdf" width="100%" height="1000px" /></div>
+            <div class="embedPDF"><iframe src="https://drive.google.com/file/d/1z-d6WujcQswr4aXkiFrg8976XEEYMdrn/preview" width="100%" height="1000px" allow="autoplay"></iframe></div>
              </div>
              <div class="screen1280">
                 <div onclick="togglePDF(event)" ><a class="btn clik">Work Process section Test Cases on Jira</a></div>
-            <div class="embedPDF"><embed src="./zephyr-screenshots/Work_process-T23-T24-Zephyr.pdf" width="100%" height="1000px" /></div>
+            <div class="embedPDF"><iframe src="https://drive.google.com/file/d/11CT0FhaGRs8LcUficiCc_Wxjf6zvACVZ/preview" width="100%" height="1000px" allow="autoplay"></iframe></div>
              </div>
              <div class="screen1280">
                 <div onclick="togglePDF(event)" ><a class="btn clik">Get in Touch section Test Cases on Jira</a></div>
-            <div class="embedPDF"><embed src="./zephyr-screenshots/Get_in_touch-T25-T49-Zephyr.pdf" width="100%" height="1000px" /></div>
+            <div class="embedPDF"><iframe src="https://drive.google.com/file/d/12i_57zTFkxx-NHf3PgEMNfok-3NfKVD0/preview" width="100%" height="1000px" allow="autoplay"></iframe></div>
              </div>
              <div class="screen1280">
                 <div onclick="togglePDF(event)" ><a class="btn clik"> "FOOTER  section"  Test Cases on Jira</a></div>
-            <div class="embedPDF"><embed src="./zephyr-screenshots/Footer-T50-T57-Zephyr.pdf" width="100%" height="1000px" /></div>
+            <div class="embedPDF"><iframe src="https://drive.google.com/file/d/1S-3teKLKcYRwNXu6-mHjVS9bFvWjpkF8/preview" width="100%" height="1000px" allow="autoplay"></iframe></div>
              </div>
              <div class="screen1280">
                 <div onclick="togglePDF(event)" ><a class="btn clik"> "OTHER  section"  Test Cases on Jira</a></div>
-            <div class="embedPDF"><embed src="./zephyr-screenshots/Other-T58-T59-Zephyr.pdf" width="100%" height="1000px" /></div>
+            <div class="embedPDF"><iframe src="https://drive.google.com/file/d/1-z2-zCyEGjtZIaKeuDA6Tqv3fD1U1iwM/preview" width="100%" height="1000px" allow="autoplay"></iframe></div>
              </div>
             <div class="screen1280"></div>
     <footer class="footer1280"> <!-- FOOTER element START-->
