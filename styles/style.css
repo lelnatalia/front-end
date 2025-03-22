@@ -158,7 +158,7 @@ h1 {
  .screen1280 {
    text-align: center; /* Centers the text inside the element */
    padding: 60px 120px; /* Adds padding to the element with 60px top/bottom and 120px left/right */
-   width: auto; /* Automatically adjusts the width of the element */
+   width: auto; 
    min-height: 100px; /* Ensures the element has a minimum height of 100px */
  }
  
