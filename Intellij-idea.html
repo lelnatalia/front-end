@@ -152,7 +152,12 @@
              
         }
 th {background: #336699; color: #FFFFFF; text-align: left;}
-    </style>
+@media (max-width: 600px) {
+  .left-sidebar {
+            width: 200px;
+}
+   }
+      </style>
     <script>
         function toggleMenu(event) {
             event.stopPropagation();

@@ -158,7 +158,7 @@ h1 {
  .screen1280 {
    text-align: center; /* Centers the text inside the element */
    padding: 60px 120px; /* Adds padding to the element with 60px top/bottom and 120px left/right */
-   width: auto; /* Automatically adjusts the width of the element */
+   width: auto; 
    min-height: 100px; /* Ensures the element has a minimum height of 100px */
  }
  
@@ -365,43 +365,7 @@ h1 {
   }
 }
 
-@media (max-width: 600px) {
-  /* Styles for screens smaller than 600px */
 
-  header {
-    padding: 20px 40px; /* Adds 20px padding to the top and bottom, and 40px padding to the left and right of the header */
-  }
-
-  .screen1280 {
-    padding: 20px 20px; /* Adds 20px padding to all sides of the 'screen1280' container */
-  }
-
-  .card {
-    flex-direction: column; /* Changes the flex direction to column for the card (stacks elements vertically) */
-    padding: 20px 20px; /* Adds 20px padding to all sides of the card */
-  }
-
-  .card li {
-    width: 100%; /* Sets the width of each list item to 100% of the container */
-    max-width: 400px; /* Sets the maximum width of each list item to 400px */
-    margin: 10px 5px 10px 5px; /* Adds 10px margin to the top and bottom, and 5px to the left and right */
-  }
-
-  .card li p {
-    padding: 20px; /* Adds 20px padding to the top and bottom and sides of the paragraph inside list items */
-  }
-
-  .footer1280 {
-    padding: 20px 20px; /* Adds 20px padding to all sides of the footer */
-  }
-
-  #slogan {
-    padding: 0px 10px; /* Adds 10px padding to the left and right of the slogan */
-    font-weight: 400; /* Sets the font weight to normal */
-    font-size: 40px; /* Sets the font size of the slogan to 40px */
-    line-height: 45px; /* Sets the line height of the slogan to 45px */
-  }
-}
 
 /* tablet screen - max-width: 720px */
 
@@ -458,7 +422,43 @@ h1 {
     display: none; /* Hides the navigation links on small screens */
   }
 }
+@media (max-width: 600px) {
+  /* Styles for screens smaller than 600px */
 
+  header {
+    padding: 20px 40px; /* Adds 20px padding to the top and bottom, and 40px padding to the left and right of the header */
+  }
+
+  .screen1280 {
+    padding: 20px 20px; /* Adds 20px padding to all sides of the 'screen1280' container */
+  }
+
+  .card {
+    flex-direction: column; /* Changes the flex direction to column for the card (stacks elements vertically) */
+    padding: 20px 20px; /* Adds 20px padding to all sides of the card */
+  }
+
+  .card li {
+    width: 100%; /* Sets the width of each list item to 100% of the container */
+    max-width: 400px; /* Sets the maximum width of each list item to 400px */
+    margin: 10px 5px 10px 5px; /* Adds 10px margin to the top and bottom, and 5px to the left and right */
+  }
+
+  .card li p {
+    padding: 20px; /* Adds 20px padding to the top and bottom and sides of the paragraph inside list items */
+  }
+
+  .footer1280 {
+    padding: 20px 20px; /* Adds 20px padding to all sides of the footer */
+  }
+
+  #slogan {
+    padding: 0px 10px; /* Adds 10px padding to the left and right of the slogan */
+    font-weight: 400; /* Sets the font weight to normal */
+    font-size: 40px; /* Sets the font size of the slogan to 40px */
+    line-height: 45px; /* Sets the line height of the slogan to 45px */
+  }
+}
 @media (max-width: 472px) {
   /* Styles for screens smaller than 472px */
 
