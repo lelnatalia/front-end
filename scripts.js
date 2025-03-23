@@ -71,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
      });
      element.addEventListener("blur", function() {
          this.classList.remove("highlight");
-         let regex = /^[a-zA-Z0-9 .,!?'"()-@]+$/;
          if(this.id ==="name" && this.value !=""){  
              let name = document.getElementById("name").value.trim();
              if (name.length < 3 || /[^a-zA-Z ]/.test(name)) {
@@ -86,6 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
          if(this.id ==="email" && this.value !=""){
              let email = document.getElementById("email").value.trim();
+             let regex = /^[a-zA-Z0-9 .,!?'"()-@]+$/;
              if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
                  document.getElementById("emailError").textContent = "Enter a valid email address.";
                  isValid = false;
@@ -101,6 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
          }
          if(this.id ==="message" && this.value !=""){
              let message = document.getElementById("message").value.trim();
+             let regex = /^[a-zA-Z0-9 .,!?'"()-@]+$/;
              if (this.value.trim() =="") {
                 document.getElementById("messageError").textContent = "Message cannot be empty or only spaces!";
                 isValid = false;
