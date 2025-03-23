@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
                  document.getElementById("emailError").textContent = "Enter a valid email address.";
                  isValid = false;
                 }else if(email.length > 150 ){
-                    document.getElementById("emailError").textContent = "Name must be 150 characters maximum";
+                    document.getElementById("emailError").textContent = "Name must be 150 characters maximum.";
                     isValid = false;
                 }else if(!regex.test(email)){
                     document.getElementById("emailError").textContent = "Invalid email: special characters are not allowed!";
