@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
                  document.getElementById("emailError").textContent = "Enter a valid email address.";
                  isValid = false;
                 }else if(email.length > 150 ){
-                    document.getElementById("emailError").textContent = "Name must be 150 characters maximum.";
+                    document.getElementById("emailError").textContent = "Email must be 150 characters maximum.";
                     isValid = false;
                 }else if(!regex.test(email)){
                     document.getElementById("emailError").textContent = "Invalid email: special characters are not allowed!";
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.getElementById("messageError").textContent = "Message cannot be empty or only spaces!";
                 isValid = false;
                }else if(message.length > 1000){
-                   document.getElementById("messageError").textContent = "Name must be 1000 characters maximum";
+                   document.getElementById("messageError").textContent = "Message must be 1000 characters maximum";
                    isValid = false;
                }else if(!regex.test(message)){
                    document.getElementById("messageError").textContent = "Invalid message: special characters are not allowed!";
