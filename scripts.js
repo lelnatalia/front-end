@@ -52,13 +52,13 @@ document.addEventListener("DOMContentLoaded", () => {
              const result = await response.json();
              
              if (response.ok) {
-                 alert("Form submitted successfully!");
+                document.getElementById("messageError").textContent = "Form submitted successfully!";
                  form.reset();
              } else {
-                 alert("Error: " + result.message);
+                 document.getElementById("messageError").textContent = "Error: " + result.message;
              }
          } catch (error) {
-             alert("Submission failed. Please try again later..");
+             document.getElementById("messageError").textContent = "Submission failed. Please try again later..";
              console.error("Error submitting form:", error);
          }
          
