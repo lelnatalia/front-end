@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
                  alert("Error: " + result.message);
              }
          } catch (error) {
-             alert("Submission failed. Please try again later.");
+             alert("Submission failed. Please try again later..");
              console.error("Error submitting form:", error);
          }
          
