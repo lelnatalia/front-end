@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
          const formData = new FormData(form);
          
          try {
-             const response = await fetch("http://leleko.net/natalia/submit-form.php", {
+             const response = await fetch("https://leleko.net/natalia/submit-form.php", {
                  method: "POST",
                  headers: {
                      "Content-Type": "application/json"
