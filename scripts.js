@@ -83,22 +83,28 @@ document.addEventListener("DOMContentLoaded", () => {
                  document.getElementById("nameError").textContent = ""; 
                  isValid = true;}
             }
-         if(this.id ==="email" && this.value !=""){
-             let email = document.getElementById("email").value.trim();
-             let regex = /^[a-zA-Z0-9 .,!?'"()-@]+$/;
-             if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-                 document.getElementById("emailError").textContent = "Enter a valid email address.";
-                 isValid = false;
-                }else if(email.length > 150 ){
-                    document.getElementById("emailError").textContent = "Email must be 150 characters maximum.";
+            if (this.id === "email" && this.value.trim() !== "") {
+                let emailField = document.getElementById("email");
+                let email = emailField.value.trim();
+                let emailError = document.getElementById("emailError");
+            
+                let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Standard email format check
+                let allowedCharsRegex = /^[a-zA-Z0-9._%+-@]+$/; // Allows valid email characters
+            
+                if (!emailRegex.test(email)) {
+                    emailError.textContent = "Enter a valid email address.";
                     isValid = false;
-                }else if(!regex.test(email)){
-                    document.getElementById("emailError").textContent = "Invalid email: special characters are not allowed!";
+                } else if (email.length > 150) {
+                    emailError.textContent = "Email must be 150 characters maximum.";
                     isValid = false;
-             }else{
-                 document.getElementById("emailError").textContent = ""; 
-                 isValid = true;}
-         }
+                } else if (!allowedCharsRegex.test(email)) {
+                    emailError.textContent = "Invalid email: special characters are not allowed!";
+                    isValid = false;
+                } else {
+                    emailError.textContent = "";
+                    isValid = true;
+                }
+            }
          if(this.id ==="message" && this.value !=""){
              let message = document.getElementById("message").value.trim();
              let regex = /^[a-zA-Z0-9 .,!?'"()-@]+$/;
