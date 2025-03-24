@@ -1,4 +1,4 @@
 <?php
-echo "{message:success}";
+echo "message:success";
 
 ?>
