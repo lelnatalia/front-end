@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
          const formData = new FormData(form);
          
          try {
-             const response = await fetch("http://leleko.net/natalia/submit-form.php", {
+             const response = await fetch("https://leleko.net/natalia/submit-form.php", {
                  method: "POST",
                  headers: {
                      "Content-Type": "application/json"
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
                  alert("Error: " + result.message);
              }
          } catch (error) {
-             alert("Submission failed. Please try again later.");
+             alert("Submission failed. Please try again later..");
              console.error("Error submitting form:", error);
          }
          
