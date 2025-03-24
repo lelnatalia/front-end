@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
          isValid = false;
      }
      
-     if (message.length < 10) {
-         document.getElementById("messageError").textContent = "Message must be at least 10 characters long.";
+     if (message.length < 1) {
+         document.getElementById("messageError").textContent = "Message cannot be empty or only spaces!";
          isValid = false;
      }
      
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
          const formData = new FormData(form);
          
          try {
-             const response = await fetch("http://localhost:8000/Desktop/gitclass/front-end/submit-form.php", {
+             const response = await fetch("http://leleko.net/natalia/submit-form.php", {
                  method: "POST",
                  headers: {
                      "Content-Type": "application/json"
