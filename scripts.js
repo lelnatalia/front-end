@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
              const result = await response.json();
              
              if (response.ok) {
-                document.getElementById("messageError").textContent = "Form submitted successfully!"; 
-                alert("Form submitted successfully!");
+                document.getElementById("messageError").textContent = result.message; 
+                alert(result.message);
                  form.reset();
              } else {
                 document.getElementById("messageError").textContent = "Error: " + result.message;
