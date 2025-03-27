@@ -16,20 +16,20 @@
 <font face="Arial, Helvetica" color="#000000">
 BaseClass.java</font>
 </center></td></tr></table>
-<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">Stage.testCases;</span>
-<a name="l2"><span class="ln">2    </span></a><span class="s0">import </span><span class="s1">Stage.utilities.ReadConfig;</span>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">testCases;</span>
+<a name="l2"><span class="ln">2    </span></a><span class="s0">import <a href="../utilities/ReadConfig.java.html">utilities.ReadConfig</a></span><span class="s1">;</span>
 <a name="l3"><span class="ln">3    </span></a><span class="s0">import </span><span class="s1">org.apache.commons.io.FileUtils;</span>
-<a name="l4"><span class="ln">4    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.OutputType;</span>
-<a name="l5"><span class="ln">5    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.TakesScreenshot;</span>
-<a name="l6"><span class="ln">6    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.WebDriver;</span>
-<a name="l7"><span class="ln">7    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.chrome.ChromeDriver;</span>
-<a name="l8"><span class="ln">8    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.edge.EdgeDriver;</span>
-<a name="l9"><span class="ln">9    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.firefox.FirefoxDriver;</span>
-<a name="l10"><span class="ln">10   </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.safari.SafariDriver;</span>
-<a name="l11"><span class="ln">11   </span></a><span class="s0">import </span><span class="s1">org.testng.annotations.AfterClass;</span>
-<a name="l12"><span class="ln">12   </span></a><span class="s0">import </span><span class="s1">org.testng.annotations.BeforeClass;</span>
-<a name="l13"><span class="ln">13   </span></a><span class="s0">import </span><span class="s1">org.apache.log4j.Logger;</span>
-<a name="l14"><span class="ln">14   </span></a><span class="s0">import </span><span class="s1">org.apache.log4j.PropertyConfigurator;</span>
+<a name="l4"><span class="ln">4    </span></a><span class="s0">import </span><span class="s1">org.apache.log4j.Logger;</span>
+<a name="l5"><span class="ln">5    </span></a><span class="s0">import </span><span class="s1">org.apache.log4j.PropertyConfigurator;</span>
+<a name="l6"><span class="ln">6    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.OutputType;</span>
+<a name="l7"><span class="ln">7    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.TakesScreenshot;</span>
+<a name="l8"><span class="ln">8    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.WebDriver;</span>
+<a name="l9"><span class="ln">9    </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.chrome.ChromeDriver;</span>
+<a name="l10"><span class="ln">10   </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.edge.EdgeDriver;</span>
+<a name="l11"><span class="ln">11   </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.firefox.FirefoxDriver;</span>
+<a name="l12"><span class="ln">12   </span></a><span class="s0">import </span><span class="s1">org.openqa.selenium.safari.SafariDriver;</span>
+<a name="l13"><span class="ln">13   </span></a><span class="s0">import </span><span class="s1">org.testng.annotations.AfterClass;</span>
+<a name="l14"><span class="ln">14   </span></a><span class="s0">import </span><span class="s1">org.testng.annotations.BeforeClass;</span>
 <a name="l15"><span class="ln">15   </span></a><span class="s0">import </span><span class="s1">org.testng.annotations.Optional;</span>
 <a name="l16"><span class="ln">16   </span></a><span class="s0">import </span><span class="s1">org.testng.annotations.Parameters;</span>
 <a name="l17"><span class="ln">17   </span></a><span class="s0">import </span><span class="s1">java.io.File;</span>
@@ -37,16 +37,16 @@ BaseClass.java</font>
 <a name="l19"><span class="ln">19   </span></a>
 <a name="l20"><span class="ln">20   </span></a><span class="s0">public class </span><span class="s1">BaseClass {</span>
 <a name="l21"><span class="ln">21   </span></a>
-<a name="l22"><span class="ln">22   </span></a>    <span class="s1">ReadConfig readConfig = </span><span class="s0">new </span><span class="s1">ReadConfig(); </span>
+<a name="l22"><span class="ln">22   </span></a>    <a href="../utilities/ReadConfig.java.html">ReadConfig</a> <span class="s1">readConfig = </span><span class="s0">new <a href="../utilities/ReadConfig.java.html">ReadConfig</a></span><span class="s1">();</span>
 <a name="l23"><span class="ln">23   </span></a>    <span class="s0">public </span><span class="s1">String stageURL = readConfig.getApplicationURL();</span>
 <a name="l24"><span class="ln">24   </span></a>    <span class="s0">public static </span><span class="s1">WebDriver driver;</span>
 <a name="l25"><span class="ln">25   </span></a>    <span class="s0">public static </span><span class="s1">Logger logger;</span>
 <a name="l26"><span class="ln">26   </span></a>
-<a name="l27"><span class="ln">27   </span></a>    
+<a name="l27"><span class="ln">27   </span></a>
 <a name="l28"><span class="ln">28   </span></a>    <span class="s1">@Parameters(</span><span class="s2">&quot;browser&quot;</span><span class="s1">)</span>
-<a name="l29"><span class="ln">29   </span></a>    <span class="s1">@BeforeClass  </span>
-<a name="l30"><span class="ln">30   </span></a>    <span class="s0">public void </span><span class="s1">setUp(@Optional(</span><span class="s2">&quot;chrome&quot;</span><span class="s1">) String br) { </span>
-<a name="l31"><span class="ln">31   </span></a>        <span class="s1">logger = Logger.getLogger(</span><span class="s2">&quot;CPB Stage&quot;</span><span class="s1">);</span>
+<a name="l29"><span class="ln">29   </span></a>    <span class="s1">@BeforeClass</span>
+<a name="l30"><span class="ln">30   </span></a>    <span class="s0">public void </span><span class="s1">setUp(@Optional(</span><span class="s2">&quot;chrome&quot;</span><span class="s1">) String br) {</span>
+<a name="l31"><span class="ln">31   </span></a>        <span class="s1">logger = Logger.getLogger(</span><span class="s2">&quot;NWP testing&quot;</span><span class="s1">);</span>
 <a name="l32"><span class="ln">32   </span></a>        <span class="s1">PropertyConfigurator.configure(</span><span class="s2">&quot;log4j.properties&quot;</span><span class="s1">);</span>
 <a name="l33"><span class="ln">33   </span></a>
 <a name="l34"><span class="ln">34   </span></a>        <span class="s3">// Depending on the browser parameter passed, it sets the corresponding WebDriver and maximizes the browser window.</span>
@@ -65,7 +65,7 @@ BaseClass.java</font>
 <a name="l47"><span class="ln">47   </span></a>        <span class="s1">} </span><span class="s0">else if </span><span class="s1">(br.equals(</span><span class="s2">&quot;safari&quot;</span><span class="s1">)) {</span>
 <a name="l48"><span class="ln">48   </span></a>            <span class="s1">System.setProperty(</span><span class="s2">&quot;webdriver.safari.driver&quot;</span><span class="s1">, readConfig.getSafariDriverPath());</span>
 <a name="l49"><span class="ln">49   </span></a>            <span class="s1">driver = </span><span class="s0">new </span><span class="s1">SafariDriver();</span>
-<a name="l50"><span class="ln">50   </span></a>            <span class="s1">driver.manage().window().maximize(); </span>
+<a name="l50"><span class="ln">50   </span></a>            <span class="s1">driver.manage().window().maximize();</span>
 <a name="l51"><span class="ln">51   </span></a>        <span class="s1">}</span>
 <a name="l52"><span class="ln">52   </span></a>    <span class="s1">}</span>
 <a name="l53"><span class="ln">53   </span></a>
@@ -75,14 +75,14 @@ BaseClass.java</font>
 <a name="l57"><span class="ln">57   </span></a>        <span class="s1">File source = ts.getScreenshotAs(OutputType.FILE);  </span><span class="s3">// Captures the screenshot and stores it as a file.</span>
 <a name="l58"><span class="ln">58   </span></a>        <span class="s1">File target = </span><span class="s0">new </span><span class="s1">File(System.getProperty(</span><span class="s2">&quot;user.dir&quot;</span><span class="s1">)+ </span><span class="s2">&quot;/Screenshots/&quot; </span><span class="s1">+ tname + </span><span class="s2">&quot;.png&quot;</span><span class="s1">);</span>
 <a name="l59"><span class="ln">59   </span></a>        <span class="s1">FileUtils.copyFile(source, target);  </span><span class="s3">// Copies the captured screenshot to the target file location.</span>
-<a name="l60"><span class="ln">60   </span></a>        <span class="s1">System.out.println(</span><span class="s2">&quot;Screenshot taken&quot;</span><span class="s1">); </span>
+<a name="l60"><span class="ln">60   </span></a>        <span class="s1">System.out.println(</span><span class="s2">&quot;Screenshot taken&quot;</span><span class="s1">);</span>
 <a name="l61"><span class="ln">61   </span></a>    <span class="s1">}</span>
 <a name="l62"><span class="ln">62   </span></a>
 <a name="l63"><span class="ln">63   </span></a>    <span class="s3">// This method is executed after the test class completes, ensuring proper cleanup.</span>
 <a name="l64"><span class="ln">64   </span></a>    <span class="s1">@AfterClass</span>
 <a name="l65"><span class="ln">65   </span></a>    <span class="s0">public void </span><span class="s1">tearDown() {</span>
 <a name="l66"><span class="ln">66   </span></a>        <span class="s0">if</span><span class="s1">(driver != </span><span class="s0">null</span><span class="s1">) {</span>
-<a name="l67"><span class="ln">67   </span></a>            <span class="s1">driver.quit();</span>
+<a name="l67"><span class="ln">67   </span></a>          <span class="s1">driver.quit();</span>
 <a name="l68"><span class="ln">68   </span></a>        <span class="s1">}</span>
 <a name="l69"><span class="ln">69   </span></a>    <span class="s1">}</span>
 <a name="l70"><span class="ln">70   </span></a>
