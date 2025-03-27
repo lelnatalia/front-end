@@ -94,14 +94,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Standard email format check
                 let allowedCharsRegex = /^[a-zA-Z0-9._%+-@]+$/; // Allows valid email characters
             
-                if (!emailRegex.test(email)) {
-                    emailError.textContent = "Enter a valid email address.";
+                if (!allowedCharsRegex.test(email)) {
+                    emailError.textContent = "Invalid email: special characters are not allowed!";
                     isValid = false;
                 } else if (email.length > 150) {
                     emailError.textContent = "Email must be 150 characters maximum.";
                     isValid = false;
-                } else if (!allowedCharsRegex.test(email)) {
-                    emailError.textContent = "Invalid email: special characters are not allowed!";
+                } else if (!emailRegex.test(email)) {
+                    emailError.textContent = "Enter a valid email address.";
                     isValid = false;
                 } else {
                     emailError.textContent = "";
