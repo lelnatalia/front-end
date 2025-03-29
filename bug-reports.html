@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+
+        <!--Included JS file extrnally-->
+        <script src="scripts.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Google Font-->
+         <link rel="preconnect"href="https://fonts.googleleapis.com">
+         <link rel="preconnect"href="https:///fonts.gstatic.com" crossorigin> 
+         <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+<!-- Google font-->
+
+
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css"> <!-- main .css file  -->
+
+        <!-- This is page title shown at the top of browser window .. -->
+        <title>NATALIA Test Plan - Test Cases</title>
+        <style>
+            #plan {
+                font-family: Arial, sans-serif;
+                padding: 20px 120px; /* Adds padding to the element with 60px top/bottom and 120px left/right */
+                padding-bottom: 60px;
+                width: auto; /* Automatically adjusts the width of the element */
+
+               /* background-color: #f4f4f4;*/
+            }
+            ul {
+                list-style-type: disc;
+            }
+            ol {
+                list-style-type: decimal;
+            }
+            section {
+                background-color: white;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .embedPDF {
+            padding: 10px;
+            width: 100%;
+            }
+             .left-bg-jira {
+    background-image: url('./img/jira-logo.png'); 
+    background-repeat: no-repeat; 
+    background-size: 35px 35px;  
+    padding-left: 45px;
+    background-position: 5px 25px;
+            }
+            .left-bg-apache {
+    background-image: url('./JMreportNWP/content/pages/icon-apache.png'); 
+    background-repeat: no-repeat; 
+    background-size: 35px 35px;  
+    padding-left: 45px;
+    background-position: 5px 25px;
+            }
+             @media (max-width: 600px) {
+                .embedPDF iframe{
+             height: 500px;
+            }
+            section {
+                background-color: white;
+                padding: 5px;
+
+            }
+            #plan {
+                padding: 20px 10px; /* Adds padding to the element with 20px  */
+            }   
+             }
+        </style>
+         <script>
+            function togglePDF(event) {
+                event.stopPropagation();
+                const item = event.currentTarget.parentElement;
+                item.classList.toggle('expanded');
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    </head>  
+
+    <body> 
+        <header>  
+                <span class="logo" id="logo"><a href="./index.html">NATALIA</a></span><!--LOGO --> 
+ <!--START hidden mobile menu -->  <div id ="dropbtn" class="dropdown dropbtn">           
+                <div class="hamburger" id = "hamburger-id"><!--hamburger START --> 
+                    <span></span><!--hamburger line -->
+                    <span></span><!--hamburger line -->
+                    <span></span><!--hamburger line -->
+                </div>    <!--hamburger END --> 
+                    <div class="mobile-menu-list" id="mobile-menu-list-id"> <!--START hidden mobile menu list shown on hamburger click-->
+                        <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/e/2PACX-1vTHQbcSvRfE-umHq_tnTJfZH1U-f8vmRrfHjQuOxHYjXWEq5EXoDmlPqrfDvn8QDrb8KeERKX2MM19F/pub">About me</a><!-- mobile menu list item-->
+                        <a href="./index.html#mywork-nav-ancher">My Work</a><!-- mobile menu list item-->
+                        <a href="./index.html#workprocess-nav-ancher">Work process</a><!-- mobile menu list item-->
+                    </div>   <!--END hidden mobile menu list showm on hamburger click-->
+    <!--hidden mobile menu END--></div>
+                    
+                    <span class="nav"><a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/e/2PACX-1vTHQbcSvRfE-umHq_tnTJfZH1U-f8vmRrfHjQuOxHYjXWEq5EXoDmlPqrfDvn8QDrb8KeERKX2MM19F/pub">About me</a></span><!-- DESKTOP menu list item-->
+                    <span class="nav"><a href="./index.html#mywork-nav-ancher">My Work</a></span><!-- DESKTOP menu list item-->
+                    <span class="nav"><a href="./index.html#workprocess-nav-ancher">Work process</a></span><!-- DESKTOP menu list item-->
+                <span><a href="./index.html#screen4" class="btn clik">Contact Me</a></span><!-- CONTACT ME button-->
+         </header>
+        <main>    
+            <div class="embedPDF">
+                <p class="slogan"><span class="left-bg-jira"></span>Jira Bug Reports</span></p>
+                <div>
+                    <iframe width="100%" height="800px" allow="autoplay" src="https://drive.google.com/file/d/1cidNK5oxhswJCxWP_prKmli5DSq8EVrM/preview"></iframe>
+                </div>
+            </div>
+            <div class="embedPDF">
+                <p class="slogan"><span class="left-bg-apache"></span>Apache JMeter Reports</span></p>
+                <div>
+                    <iframe width="100%" height="800px" allow="autoplay" src="./JMreportNWP/index.html"></iframe>
+                </div>
+            </div>
+            <!--div class="screen1280"></div-->
+    <footer class="footer1280"> <!-- FOOTER element START-->
+                <div class="footer">
+                        NATALIA
+                        
+                    <div class="social">
+                      <ul>
+                          <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/nnleleko">Facebook</a></li> 
+                          <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lelnatalia">Instagram</a></li>
+                          <li><a target="_blank" rel="noopener noreferrer" href="https://t.me/Lelnatalia">Telegram</a></li>
+                      </ul>
+                    </div>
+                </div>
+    </footer>   
+                </div>
+     
+        </main>
+    </body> 
+</html>

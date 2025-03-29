@@ -17,7 +17,7 @@
 BaseClass.java</font>
 </center></td></tr></table>
 <pre><a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">testCases;</span>
-<a name="l2"><span class="ln">2    </span></a><span class="s0">import <a href="../utilities/ReadConfig.java.html">utilities.ReadConfig</a></span><span class="s1">;</span>
+<a name="l2"><span class="ln">2    </span></a><span class="s0">import </span><span class="s1">utilities.ReadConfig;</span>
 <a name="l3"><span class="ln">3    </span></a><span class="s0">import </span><span class="s1">org.apache.commons.io.FileUtils;</span>
 <a name="l4"><span class="ln">4    </span></a><span class="s0">import </span><span class="s1">org.apache.log4j.Logger;</span>
 <a name="l5"><span class="ln">5    </span></a><span class="s0">import </span><span class="s1">org.apache.log4j.PropertyConfigurator;</span>
@@ -37,7 +37,7 @@ BaseClass.java</font>
 <a name="l19"><span class="ln">19   </span></a>
 <a name="l20"><span class="ln">20   </span></a><span class="s0">public class </span><span class="s1">BaseClass {</span>
 <a name="l21"><span class="ln">21   </span></a>
-<a name="l22"><span class="ln">22   </span></a>    <a href="../utilities/ReadConfig.java.html">ReadConfig</a> <span class="s1">readConfig = </span><span class="s0">new <a href="../utilities/ReadConfig.java.html">ReadConfig</a></span><span class="s1">();</span>
+<a name="l22"><span class="ln">22   </span></a>    <span class="s1">ReadConfig readConfig = </span><span class="s0">new </span><span class="s1">ReadConfig();</span>
 <a name="l23"><span class="ln">23   </span></a>    <span class="s0">public </span><span class="s1">String stageURL = readConfig.getApplicationURL();</span>
 <a name="l24"><span class="ln">24   </span></a>    <span class="s0">public static </span><span class="s1">WebDriver driver;</span>
 <a name="l25"><span class="ln">25   </span></a>    <span class="s0">public static </span><span class="s1">Logger logger;</span>
