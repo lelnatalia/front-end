@@ -4,7 +4,7 @@ $response = array(
     "status" => "success",
    // "message" => "<b style=color:green">Data has been processed successfully.</b>"
    "message" => "Data has NOT been processed.",
-   "message_recieved" => ".$message."
+   "message_recieved" => "$message"
 );
 
 // Set the header to indicate the content type as JSON
